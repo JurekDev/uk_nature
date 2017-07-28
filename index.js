@@ -15,8 +15,23 @@ var APP_ID = undefined;
 
 
 var data=[
+
     {
       libraryName:"Arnside and Silverdale",
+      address:"",
+      cityName:"North West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Forest of Bowland",
+      address:"",
+      cityName:"North West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Solway Coast",
       address:"",
       cityName:"North West",
       email:"",
@@ -138,6 +153,111 @@ var data=[
       libraryName:"Tamar Valley",
       address:"",
       cityName:"South West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Northumberland Coast",
+      address:"",
+      cityName:"North East",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"North Pennines",
+      address:"",
+      cityName:"North East",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Lincolnshire Wolds",
+      address:"",
+      cityName:"East Midlands",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Dedham Vale",
+      address:"",
+      cityName:"East of England",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Norfolk Coast",
+      address:"",
+      cityName:"East of England",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Suffolk Coast and Heaths",
+      address:"",
+      cityName:"East of England",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Chichester Harbour",
+      address:"",
+      cityName:"South East",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Chilterns",
+      address:"",
+      cityName:"South East",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"High Weald",
+      address:"",
+      cityName:"South East",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Isle of Wight",
+      address:"",
+      cityName:"South East",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Kent Downs",
+      address:"",
+      cityName:"South East",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"South Hampshire Coast",
+      address:"",
+      cityName:"South East",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Surrey Hills",
+      address:"",
+      cityName:"South East",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Howardian Hills",
+      address:"",
+      cityName:"Yorkshire and Humber",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Nidderdale",
+      address:"",
+      cityName:"Yorkshire and Humber",
       email:"",
       phone:""
     },
