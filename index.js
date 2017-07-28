@@ -16,12 +16,132 @@ var APP_ID = undefined;
 
 var data=[
     {
-      libraryName:"motherwell library",
-      address:"35 hamilton road",
-      cityName:"motherwell",
+      libraryName:"Arnside and Silverdale",
+      address:"",
+      cityName:"North West",
       email:"",
       phone:""
-    }
+    },
+    {
+      libraryName:"Cannock Chase",
+      address:"",
+      cityName:"West Midlands",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Wye Valley",
+      address:"",
+      cityName:"West Midlands",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Shropshire hills",
+      address:"",
+      cityName:"West Midlands",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Malvern Hills",
+      address:"",
+      cityName:"West Midlands",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Cotswolds",
+      address:"",
+      cityName:"South West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Blackdown Hills",
+      address:"",
+      cityName:"South West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Cranborne Chase and West Wiltshire Downs", //TODO
+      address:"",
+      cityName:"South West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Cornwall",
+      address:"",
+      cityName:"South West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Dorset",
+      address:"",
+      cityName:"South West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"East Devon",
+      address:"",
+      cityName:"South West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Isles of Scilly",
+      address:"",
+      cityName:"South West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Mendip Hills",
+      address:"",
+      cityName:"South West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"North Devon Coast",
+      address:"",
+      cityName:"South West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"North Wessex Downs",
+      address:"",
+      cityName:"South West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Quantock Hills",
+      address:"",
+      cityName:"South West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"South Devon",
+      address:"",
+      cityName:"South West",
+      email:"",
+      phone:""
+    },
+    {
+      libraryName:"Tamar Valley",
+      address:"",
+      cityName:"South West",
+      email:"",
+      phone:""
+    },
+
 
 ];
 
