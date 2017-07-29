@@ -236,13 +236,6 @@ var data=[
     phone:"sdfa"
   },
   {
-    areaName:"south hampshire coast",
-    address:"dsfa",
-    region:"south east",
-    email:"dffsda",
-    phone:"sssda"
-  },
-  {
     areaName:"surrey hills",
     address:"the surrey hills is an area located in surrey england and contains woodland, scrub heathland and chalk grassland. it was designated in 1958 and covers an area of 163 square miles. the highest point is leith hill with 965 feet.",
     region:"south east",
