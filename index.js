@@ -16,252 +16,251 @@ var APP_ID = undefined;
 
 var data=[
 
-    {
-      libraryName:"arnside and silverdale",
-      address:"a",
-      cityName:"north west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"forest of bowland",
-      address:"a",
-      cityName:"north west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"solway coast",
-      address:"a",
-      cityName:"north west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"cannock chase",
-      address:"a",
-      cityName:"west midlands",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"wye valley",
-      address:"a",
-      cityName:"west midlands",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"shropshire hills",
-      address:"a",
-      cityName:"west midlands",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"malvern hills",
-      address:"a",
-      cityName:"west midlands",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"cotswolds",
-      address:"a",
-      cityName:"south west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"blackdown hills",
-      address:"a",
-      cityName:"south west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"cranborne chase and west wiltshire downs", //TODO
-      address:"a",
-      cityName:"south west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"cornwall",
-      address:"a",
-      cityName:"south west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"dorset",
-      address:"a",
-      cityName:"south west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"east devon",
-      address:"a",
-      cityName:"south west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"isles of scilly",
-      address:"a",
-      cityName:"south west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"mendip hills",
-      address:"a",
-      cityName:"south west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"north devon coast",
-      address:"a",
-      cityName:"south west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"north wessex downs",
-      address:"a",
-      cityName:"south west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"quantock hills",
-      address:"a",
-      cityName:"south west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"south devon",
-      address:"a",
-      cityName:"south west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"tamar valley",
-      address:"a",
-      cityName:"south west",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"northumberland coast",
-      address:"a",
-      cityName:"north east",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"north pennines",
-      address:"a",
-      cityName:"north east",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"lincolnshire wolds",
-      address:"a",
-      cityName:"east midlands",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"dedham vale",
-      address:"a",
-      cityName:"east of england",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"norfolk coast",
-      address:"a",
-      cityName:"east of england",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"suffolk coast and heaths",
-      address:"a",
-      cityName:"east of england",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"chichester harbour",
-      address:"a",
-      cityName:"south east",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"chilterns",
-      address:"a",
-      cityName:"south east",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"high weald",
-      address:"a",
-      cityName:"south east",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"isle of wight",
-      address:"a",
-      cityName:"south east",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"kent downs",
-      address:"a",
-      cityName:"south east",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"south hampshire coast",
-      address:"a",
-      cityName:"south east",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"surrey hills",
-      address:"a",
-      cityName:"south east",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"howardian hills",
-      address:"a",
-      cityName:"yorkshire and humber",
-      email:"a",
-      phone:"a"
-    },
-    {
-      libraryName:"nidderdale",
-      address:"a",
-      cityName:"yorkshire and humber",
-      email:"a",
-      phone:"a"
-    }
-
+  {
+    libraryName:"arnside and silverdale",
+    address:"asvdvdvsd",
+    region:"north west",
+    email:"advdvsvvds",
+    phone:"asdvds"
+  },
+  {
+    libraryName:"forest of bowland",
+    address:"asssssssssss",
+    region:"north west",
+    email:"avvvvvvvvvvvvvv",
+    phone:"dddddda"
+  },
+  {
+    libraryName:"solway coast",
+    address:"dvdadvd",
+    region:"north west",
+    email:"vdadv",
+    phone:"dvdavdv"
+  },
+  {
+    libraryName:"cannock chase",
+    address:"vvdavd",
+    region:"west midlands",
+    email:"avvvvddd",
+    phone:"avvddvd"
+  },
+  {
+    libraryName:"wye valley",
+    address:"vddvvda",
+    region:"west midlands",
+    email:"avvddv",
+    phone:"avddvv"
+  },
+  {
+    libraryName:"shropshire hills",
+    address:"advdv",
+    region:"west midlands",
+    email:"avcv",
+    phone:"aasx"
+  },
+  {
+    libraryName:"malvern hills",
+    address:"sddda",
+    region:"west midlands",
+    email:"assx",
+    phone:"asssaa"
+  },
+  {
+    libraryName:"cotswolds",
+    address:"avdsv",
+    region:"south west",
+    email:"savsvs",
+    phone:"svvdvsa"
+  },
+  {
+    libraryName:"blackdown hills",
+    address:"avsdvs",
+    region:"south west",
+    email:"avsvds",
+    phone:"asvdvs"
+  },
+  {
+    libraryName:"cranborne chase and west wiltshire downs",
+    address:"avsvv",
+    region:"south west",
+    email:"avsdvdvs",
+    phone:"avsdvvds"
+  },
+  {
+    libraryName:"cornwall",
+    address:"avsdvv",
+    region:"south west",
+    email:"avsdvs",
+    phone:"avsdvds"
+  },
+  {
+    libraryName:"dorset",
+    address:"asdvsd",
+    region:"south west",
+    email:"asdvds",
+    phone:"asvsds"
+  },
+  {
+    libraryName:"east devon",
+    address:"sdvsa",
+    region:"south west",
+    email:"asdv",
+    phone:"bga"
+  },
+  {
+    libraryName:"isles of scilly",
+    address:"cya",
+    region:"south west",
+    email:"vc a",
+    phone:"vfdya"
+  },
+  {
+    libraryName:"mendip hills",
+    address:"dyvfva",
+    region:"south west",
+    email:"ayfv",
+    phone:"ayfv"
+  },
+  {
+    libraryName:"north devon coast",
+    address:"avvvv",
+    region:"south west",
+    email:"avvvvvvvvvvvvvv",
+    phone:"vya"
+  },
+  {
+    libraryName:"north wessex downs",
+    address:"yvxa",
+    region:"south west",
+    email:"avyxc",
+    phone:"xyca"
+  },
+  {
+    libraryName:"quantock hills",
+    address:"ycxa",
+    region:"south west",
+    email:"ayxc",
+    phone:"ayxc"
+  },
+  {
+    libraryName:"south devon",
+    address:"cyxa",
+    region:"south west",
+    email:"aycx",
+    phone:"vca"
+  },
+  {
+    libraryName:"tamar valley",
+    address:"cva",
+    region:"south west",
+    email:"ayxcv",
+    phone:"ayxc"
+  },
+  {
+    libraryName:"northumberland coast",
+    address:"ayvxc",
+    region:"north east",
+    email:"axyc",
+    phone:"ayxc"
+  },
+  {
+    libraryName:"north pennines",
+    address:"avv",
+    region:"north east",
+    email:"ayxx",
+    phone:"yvva"
+  },
+  {
+    libraryName:"lincolnshire wolds",
+    address:"ayyyyyyy",
+    region:"east midlands",
+    email:"ayvy",
+    phone:"vvvva"
+  },
+  {
+    libraryName:"dedham vale",
+    address:"abbbb",
+    region:"east of england",
+    email:"abbbb",
+    phone:"axxx"
+  },
+  {
+    libraryName:"norfolk coast",
+    address:"a   cx",
+    region:"east of england",
+    email:"afds",
+    phone:"a"
+  },
+  {
+    libraryName:"suffolk coast and heaths",
+    address:"sddfa",
+    region:"east of england",
+    email:"adsf",
+    phone:"asfd"
+  },
+  {
+    libraryName:"chichester harbour",
+    address:"asa",
+    region:"south east",
+    email:"asss",
+    phone:"aaaa"
+  },
+  {
+    libraryName:"chilterns",
+    address:"avvv",
+    region:"south east",
+    email:"vvva",
+    phone:"ssa"
+  },
+  {
+    libraryName:"high weald",
+    address:"afsdfs",
+    region:"south east",
+    email:"asdff",
+    phone:"asdf"
+  },
+  {
+    libraryName:"isle of wight",
+    address:"fdsa",
+    region:"south east",
+    email:"sdfa",
+    phone:"sda"
+  },
+  {
+    libraryName:"kent downs",
+    address:"fsdfa",
+    region:"south east",
+    email:"dsa",
+    phone:"sdfa"
+  },
+  {
+    libraryName:"south hampshire coast",
+    address:"dsfa",
+    region:"south east",
+    email:"dffsda",
+    phone:"sssda"
+  },
+  {
+    libraryName:"surrey hills",
+    address:"asddf",
+    region:"south east",
+    email:"dddsa",
+    phone:"assds"
+  },
+  {
+    libraryName:"howardian hills",
+    address:"sdda",
+    region:"yorkshire and humber",
+    email:"acc",
+    phone:"cca"
+  },
+  {
+    libraryName:"nidderdale",
+    address:"sssa",
+    region:"yorkshire and humber",
+    email:"dca",
+    phone:"cca"
+  }
 
 ];
 
@@ -274,10 +273,10 @@ var skillName = "Alexa Team Lookup";
 //This is the welcome message for when a user starts the skill without a specific intent.
 // var WELCOME_MESSAGE = "Welcome to  " + skillName + "! I can help you find Alexa Evangelists and Solutions Architects. " + getGenericHelpMessage(data);
 
-var WELCOME_MESSAGE = "Find Areas of Outstanding Natural Beauty in the United Kingdom. For example, " + getGenericHelpMessage(data)
+var WELCOME_MESSAGE = "Find Areas of Outstanding Natural Beauty in England. For example, " + getGenericHelpMessage(data)
 
 //This is the message a user will hear when they ask Alexa for help in your skill.
-var HELP_MESSAGE = "I can help you find Areas of Outstanding Natural Beauty in the United Kingdom. "
+var HELP_MESSAGE = "I can help you find Areas of Outstanding Natural Beauty in England. "
 
 //This is the message a user will hear when they begin a new search
 var NEW_SEARCH_MESSAGE = getGenericHelpMessage(data);
@@ -287,7 +286,7 @@ var SEARCH_STATE_HELP_MESSAGE = getGenericHelpMessage(data);
 
 var DESCRIPTION_STATE_HELP_MESSAGE = "Here are some things you can say: Tell me more, or give me contact info";
 
-var MULTIPLE_RESULTS_STATE_HELP_MESSAGE = "Sorry, please say the name of the area you'd like to learn more about";
+var MULTIPLE_RESULTS_STATE_HELP_MESSAGE = "Sorry, please say the name of the Areas of Outstanding Natural Beauty you'd like to learn more about";
 
 // This is the message use when the decides to end the search
 var SHUTDOWN_MESSAGE = "Ok.";
@@ -427,7 +426,7 @@ var multipleSearchResultsHandlers = Alexa.CreateStateHandler(states.MULTIPLE_RES
         this.emit(":ask", output, output);
     },
     "AMAZON.YesIntent": function() {
-        var output = "Hmm. I think you said - yes, but can you please say the name of the area you'd like to learn more about?";
+        var output = "Hmm. I think you said - yes, but can you please say the name of the library you'd like to learn more about?";
         this.emit(":ask", output, output);
     },
     "AMAZON.NoIntent": function() {
@@ -439,15 +438,15 @@ var multipleSearchResultsHandlers = Alexa.CreateStateHandler(states.MULTIPLE_RES
     "SearchByNameIntent": function() {
         var slots = this.event.request.intent.slots;
         var libraryName = isSlotValid(this.event.request, "libraryName");
-        var cityName = isSlotValid(this.event.request, "cityName");
+        var region = isSlotValid(this.event.request, "region");
         var infoType = isSlotValid(this.event.request, "infoType");
 
         console.log("libraryName:" + libraryName);
-        console.log("libraryName:" + cityName);
+        console.log("libraryName:" + region);
         console.log("libraryName:" + infoType);
         console.log("Intent Name:" + this.event.request.intent.name);
 
-        var canSearch = figureOutWhichSlotToSearchBy(libraryName,cityName);
+        var canSearch = figureOutWhichSlotToSearchBy(libraryName,region);
         console.log("Multiple results found. canSearch is set to = " + canSearch);
         var speechOutput;
 
@@ -611,7 +610,7 @@ function searchDatabase(dataset, searchQuery, searchType) {
             matchFound = false;
             console.log("no match was found using " + searchType);
         //if more than searchable items were provided, set searchType to the next item, and set i=0
-        //ideally you want to start search with  then libraryName, and then cityName
+        //ideally you want to start search with  then libraryName, and then region
         }
     }
     return {
@@ -620,14 +619,14 @@ function searchDatabase(dataset, searchQuery, searchType) {
     };
 }
 
-function figureOutWhichSlotToSearchBy(libraryName,cityName) {
+function figureOutWhichSlotToSearchBy(libraryName,region) {
   if (libraryName){
     console.log("search by libraryName");
     return "libraryName";
   }
-  else if (!libraryName && cityName){
-    console.log("search by cityName")
-    return "cityName";
+  else if (!libraryName && region){
+    console.log("search by region")
+    return "region";
   }
   else{
     return false;
@@ -637,11 +636,11 @@ function figureOutWhichSlotToSearchBy(libraryName,cityName) {
 
 function searchByNameIntentHandler(){
   var libraryName = isSlotValid(this.event.request, "libraryName");
-  var cityName = isSlotValid(this.event.request, "cityName");
+  var region = isSlotValid(this.event.request, "region");
   var infoType = isSlotValid(this.event.request, "infoType");
   var testingThis = testingThisFunction.call(this,"hello");
 
-  var canSearch = figureOutWhichSlotToSearchBy(libraryName,cityName);
+  var canSearch = figureOutWhichSlotToSearchBy(libraryName,region);
   console.log("canSearch is set to = " + canSearch);
 
       if (canSearch){
@@ -698,12 +697,12 @@ function searchByNameIntentHandler(){
 
 function searchByCityIntentHandler(){
   var slots = this.event.request.intent.slots;
-  var cityName = isSlotValid(this.event.request, "cityName");
+  var region = isSlotValid(this.event.request, "region");
 
-      if (cityName){
-        var searchQuery = slots.cityName.value;
-        console.log("will begin search with  " + slots.cityName.value + " in cityName");
-        var searchResults = searchDatabase(data, searchQuery, "cityName");
+      if (region){
+        var searchQuery = slots.region.value;
+        console.log("will begin search with  " + slots.region.value + " in region");
+        var searchResults = searchDatabase(data, searchQuery, "region");
 
         //saving lastSearch results to the current session
         var lastSearch = this.attributes.lastSearch = searchResults;
@@ -751,10 +750,10 @@ function searchByCityIntentHandler(){
 function searchByInfoTypeIntentHandler(){
   var slots = this.event.request.intent.slots;
   var libraryName = isSlotValid(this.event.request, "libraryName");
-  var cityName = isSlotValid(this.event.request, "cityName");
+  var region = isSlotValid(this.event.request, "region");
   var infoType = isSlotValid(this.event.request, "infoType");
 
-  var canSearch = figureOutWhichSlotToSearchBy(libraryName,cityName);
+  var canSearch = figureOutWhichSlotToSearchBy(libraryName,region);
   console.log("canSearch is set to = " + canSearch);
 
       if (canSearch){
@@ -852,7 +851,7 @@ function generateSearchResultsMessage(searchQuery,results){
           break;
       case (results.length == 1):
           var person = results[0];
-          details = person.libraryName + " " + " is located in " + person.cityName + " in the " + person.address
+          details = person.libraryName + " " + " is located in " + person.region + " in the " + person.address
           prompt = generateNextPromptMessage(person,"current");
           sentence = details + prompt
           console.log(sentence);
@@ -918,7 +917,7 @@ function getRandom(min, max) {
 }
 
 function getRandomCity(arrayOfStrings) {
-    return arrayOfStrings[getRandom(0, data.length - 1)].cityName;
+    return arrayOfStrings[getRandom(0, data.length - 1)].region;
 }
 
 function getRandomName(arrayOfStrings) {
