@@ -1,4 +1,4 @@
-"use strict";
+areaName"use strict";
 const Alexa = require("alexa-sdk"); // import the library
 
 //=========================================================================================================================================
@@ -17,245 +17,245 @@ var APP_ID = undefined;
 var data=[
 
   {
-    libraryName:"arnside and silverdale",
+    areaName:"arnside and silverdale",
     address:"asvdvdvsd",
     region:"north west",
     email:"advdvsvvds",
     phone:"asdvds"
   },
   {
-    libraryName:"forest of bowland",
+    areaName:"forest of bowland",
     address:"asssssssssss",
     region:"north west",
     email:"avvvvvvvvvvvvvv",
     phone:"dddddda"
   },
   {
-    libraryName:"solway coast",
+    areaName:"solway coast",
     address:"dvdadvd",
     region:"north west",
     email:"vdadv",
     phone:"dvdavdv"
   },
   {
-    libraryName:"cannock chase",
+    areaName:"cannock chase",
     address:"vvdavd",
     region:"west midlands",
     email:"avvvvddd",
     phone:"avvddvd"
   },
   {
-    libraryName:"wye valley",
+    areaName:"wye valley",
     address:"vddvvda",
     region:"west midlands",
     email:"avvddv",
     phone:"avddvv"
   },
   {
-    libraryName:"shropshire hills",
+    areaName:"shropshire hills",
     address:"advdv",
     region:"west midlands",
     email:"avcv",
     phone:"aasx"
   },
   {
-    libraryName:"malvern hills",
+    areaName:"malvern hills",
     address:"sddda",
     region:"west midlands",
     email:"assx",
     phone:"asssaa"
   },
   {
-    libraryName:"cotswolds",
+    areaName:"cotswolds",
     address:"avdsv",
     region:"south west",
     email:"savsvs",
     phone:"svvdvsa"
   },
   {
-    libraryName:"blackdown hills",
+    areaName:"blackdown hills",
     address:"avsdvs",
     region:"south west",
     email:"avsvds",
     phone:"asvdvs"
   },
   {
-    libraryName:"cranborne chase and west wiltshire downs",
+    areaName:"cranborne chase and west wiltshire downs",
     address:"avsvv",
     region:"south west",
     email:"avsdvdvs",
     phone:"avsdvvds"
   },
   {
-    libraryName:"cornwall",
+    areaName:"cornwall",
     address:"avsdvv",
     region:"south west",
     email:"avsdvs",
     phone:"avsdvds"
   },
   {
-    libraryName:"dorset",
+    areaName:"dorset",
     address:"asdvsd",
     region:"south west",
     email:"asdvds",
     phone:"asvsds"
   },
   {
-    libraryName:"east devon",
+    areaName:"east devon",
     address:"sdvsa",
     region:"south west",
     email:"asdv",
     phone:"bga"
   },
   {
-    libraryName:"isles of scilly",
+    areaName:"isles of scilly",
     address:"cya",
     region:"south west",
     email:"vc a",
     phone:"vfdya"
   },
   {
-    libraryName:"mendip hills",
+    areaName:"mendip hills",
     address:"dyvfva",
     region:"south west",
     email:"ayfv",
     phone:"ayfv"
   },
   {
-    libraryName:"north devon coast",
+    areaName:"north devon coast",
     address:"avvvv",
     region:"south west",
     email:"avvvvvvvvvvvvvv",
     phone:"vya"
   },
   {
-    libraryName:"north wessex downs",
+    areaName:"north wessex downs",
     address:"yvxa",
     region:"south west",
     email:"avyxc",
     phone:"xyca"
   },
   {
-    libraryName:"quantock hills",
+    areaName:"quantock hills",
     address:"ycxa",
     region:"south west",
     email:"ayxc",
     phone:"ayxc"
   },
   {
-    libraryName:"south devon",
+    areaName:"south devon",
     address:"cyxa",
     region:"south west",
     email:"aycx",
     phone:"vca"
   },
   {
-    libraryName:"tamar valley",
+    areaName:"tamar valley",
     address:"cva",
     region:"south west",
     email:"ayxcv",
     phone:"ayxc"
   },
   {
-    libraryName:"northumberland coast",
+    areaName:"northumberland coast",
     address:"ayvxc",
     region:"north east",
     email:"axyc",
     phone:"ayxc"
   },
   {
-    libraryName:"north pennines",
+    areaName:"north pennines",
     address:"avv",
     region:"north east",
     email:"ayxx",
     phone:"yvva"
   },
   {
-    libraryName:"lincolnshire wolds",
+    areaName:"lincolnshire wolds",
     address:"ayyyyyyy",
     region:"east midlands",
     email:"ayvy",
     phone:"vvvva"
   },
   {
-    libraryName:"dedham vale",
+    areaName:"dedham vale",
     address:"abbbb",
     region:"east of england",
     email:"abbbb",
     phone:"axxx"
   },
   {
-    libraryName:"norfolk coast",
+    areaName:"norfolk coast",
     address:"a   cx",
     region:"east of england",
     email:"afds",
     phone:"a"
   },
   {
-    libraryName:"suffolk coast and heaths",
+    areaName:"suffolk coast and heaths",
     address:"sddfa",
     region:"east of england",
     email:"adsf",
     phone:"asfd"
   },
   {
-    libraryName:"chichester harbour",
+    areaName:"chichester harbour",
     address:"asa",
     region:"south east",
     email:"asss",
     phone:"aaaa"
   },
   {
-    libraryName:"chilterns",
+    areaName:"chilterns",
     address:"avvv",
     region:"south east",
     email:"vvva",
     phone:"ssa"
   },
   {
-    libraryName:"high weald",
+    areaName:"high weald",
     address:"afsdfs",
     region:"south east",
     email:"asdff",
     phone:"asdf"
   },
   {
-    libraryName:"isle of wight",
+    areaName:"isle of wight",
     address:"fdsa",
     region:"south east",
     email:"sdfa",
     phone:"sda"
   },
   {
-    libraryName:"kent downs",
+    areaName:"kent downs",
     address:"fsdfa",
     region:"south east",
     email:"dsa",
     phone:"sdfa"
   },
   {
-    libraryName:"south hampshire coast",
+    areaName:"south hampshire coast",
     address:"dsfa",
     region:"south east",
     email:"dffsda",
     phone:"sssda"
   },
   {
-    libraryName:"surrey hills",
+    areaName:"surrey hills",
     address:"asddf",
     region:"south east",
     email:"dddsa",
     phone:"assds"
   },
   {
-    libraryName:"howardian hills",
+    areaName:"howardian hills",
     address:"sdda",
     region:"yorkshire and humber",
     email:"acc",
     phone:"cca"
   },
   {
-    libraryName:"nidderdale",
+    areaName:"nidderdale",
     address:"sssa",
     region:"yorkshire and humber",
     email:"dca",
@@ -437,16 +437,16 @@ var multipleSearchResultsHandlers = Alexa.CreateStateHandler(states.MULTIPLE_RES
     },
     "SearchByNameIntent": function() {
         var slots = this.event.request.intent.slots;
-        var libraryName = isSlotValid(this.event.request, "libraryName");
+        var areaName = isSlotValid(this.event.request, "areaName");
         var region = isSlotValid(this.event.request, "region");
         var infoType = isSlotValid(this.event.request, "infoType");
 
-        console.log("libraryName:" + libraryName);
-        console.log("libraryName:" + region);
-        console.log("libraryName:" + infoType);
+        console.log("areaName:" + areaName);
+        console.log("areaName:" + region);
+        console.log("areaName:" + infoType);
         console.log("Intent Name:" + this.event.request.intent.name);
 
-        var canSearch = figureOutWhichSlotToSearchBy(libraryName,region);
+        var canSearch = figureOutWhichSlotToSearchBy(areaName,region);
         console.log("Multiple results found. canSearch is set to = " + canSearch);
         var speechOutput;
 
@@ -511,7 +511,7 @@ var descriptionHandlers = Alexa.CreateStateHandler(states.DESCRIPTION, {
         speechOutput = generateTellMeMoreMessage(person);
         repromptSpeech = "Would you like to find another library? Say yes or no";
 
-        console.log("the contact you're trying to find more info about is " + person.libraryName);
+        console.log("the contact you're trying to find more info about is " + person.areaName);
         this.handler.state = states.SEARCHMODE;
         this.attributes.lastSearch.lastSpeech = speechOutput;
         this.emit(":askWithCard", speechOutput, repromptSpeech, cardContent.title, cardContent.body);
@@ -610,7 +610,7 @@ function searchDatabase(dataset, searchQuery, searchType) {
             matchFound = false;
             console.log("no match was found using " + searchType);
         //if more than searchable items were provided, set searchType to the next item, and set i=0
-        //ideally you want to start search with  then libraryName, and then region
+        //ideally you want to start search with  then areaName, and then region
         }
     }
     return {
@@ -619,12 +619,12 @@ function searchDatabase(dataset, searchQuery, searchType) {
     };
 }
 
-function figureOutWhichSlotToSearchBy(libraryName,region) {
-  if (libraryName){
-    console.log("search by libraryName");
-    return "libraryName";
+function figureOutWhichSlotToSearchBy(areaName,region) {
+  if (areaName){
+    console.log("search by areaName");
+    return "areaName";
   }
-  else if (!libraryName && region){
+  else if (!areaName && region){
     console.log("search by region")
     return "region";
   }
@@ -635,12 +635,12 @@ function figureOutWhichSlotToSearchBy(libraryName,region) {
 }
 
 function searchByNameIntentHandler(){
-  var libraryName = isSlotValid(this.event.request, "libraryName");
+  var areaName = isSlotValid(this.event.request, "areaName");
   var region = isSlotValid(this.event.request, "region");
   var infoType = isSlotValid(this.event.request, "infoType");
   var testingThis = testingThisFunction.call(this,"hello");
 
-  var canSearch = figureOutWhichSlotToSearchBy(libraryName,region);
+  var canSearch = figureOutWhichSlotToSearchBy(areaName,region);
   console.log("canSearch is set to = " + canSearch);
 
       if (canSearch){
@@ -749,11 +749,11 @@ function searchByCityIntentHandler(){
 
 function searchByInfoTypeIntentHandler(){
   var slots = this.event.request.intent.slots;
-  var libraryName = isSlotValid(this.event.request, "libraryName");
+  var areaName = isSlotValid(this.event.request, "areaName");
   var region = isSlotValid(this.event.request, "region");
   var infoType = isSlotValid(this.event.request, "infoType");
 
-  var canSearch = figureOutWhichSlotToSearchBy(libraryName,region);
+  var canSearch = figureOutWhichSlotToSearchBy(areaName,region);
   console.log("canSearch is set to = " + canSearch);
 
       if (canSearch){
@@ -835,7 +835,7 @@ function generateNextPromptMessage(person,mode){
 }
 
 function generateSendingCardToAlexaAppMessage(person,mode){
-    var sentence = "I have sent " + person.libraryName + "'s contact info to your Alexa app" + generateNextPromptMessage(person,mode);
+    var sentence = "I have sent " + person.areaName + "'s contact info to your Alexa app" + generateNextPromptMessage(person,mode);
     return sentence;
 }
 
@@ -851,7 +851,7 @@ function generateSearchResultsMessage(searchQuery,results){
           break;
       case (results.length == 1):
           var person = results[0];
-          details = person.libraryName + " " + " is located in " + person.region + " in the " + person.address
+          details = person.areaName + " " + " is located in " + person.region + " in the " + person.address
           prompt = generateNextPromptMessage(person,"current");
           sentence = details + prompt
           console.log(sentence);
@@ -878,7 +878,7 @@ function generateSearchHelpMessage(){
 }
 
 function generateTellMeMoreMessage(person){
-    var sentence = person.libraryName + "'s phone number is: " + person.phone + " , the email address is: " + person.email + ". " + generateSendingCardToAlexaAppMessage(person,"general");
+    var sentence = person.areaName + "'s phone number is: " + person.phone + " , the email address is: " + person.email + ". " + generateSendingCardToAlexaAppMessage(person,"general");
     return sentence;
 }
 function generateSpecificInfoMessage(slots,person){
@@ -895,7 +895,7 @@ function generateSpecificInfoMessage(slots,person){
       infoTypeValue = slots.infoType.value;
     }
 
-    sentence = person.libraryName + "'s " + infoTypeValue.toLowerCase() + " is : " + person[infoTypeValue.toLowerCase()] + " . Would you like to find another library? " + getGenericHelpMessage(data);
+    sentence = person.areaName + "'s " + infoTypeValue.toLowerCase() + " is : " + person[infoTypeValue.toLowerCase()] + " . Would you like to find another library? " + getGenericHelpMessage(data);
     return optimizeForSpeech(sentence);
 }
 
@@ -922,7 +922,7 @@ function getRandomCity(arrayOfStrings) {
 
 function getRandomName(arrayOfStrings) {
     var randomNumber = getRandom(0, data.length - 1)
-    return arrayOfStrings[randomNumber].libraryName;
+    return arrayOfStrings[randomNumber].areaName;
 }
 
 function titleCase(str) {
@@ -934,7 +934,7 @@ function slowSpell(str) {
 }
 
 function generateCard(person) {
-    var cardTitle = "Contact Info for " + titleCase(person.libraryName);
+    var cardTitle = "Contact Info for " + titleCase(person.areaName);
     var cardBody = "phone: " + person.phone + " \n" + "address: " + person.address + " \n" + "email: " + person.email;
     return {
         "title": cardTitle,
@@ -946,8 +946,8 @@ function loopThroughArrayOfObjects(arrayOfStrings) {
     var joinedResult = "";
     // Looping through the each object in the array
     for (var i = 0; i < arrayOfStrings.length; i++) {
-    //concatenating names (libraryName ) for each item
-        joinedResult = joinedResult + ", " + arrayOfStrings[i].libraryName;
+    //concatenating names (areaName ) for each item
+        joinedResult = joinedResult + ", " + arrayOfStrings[i].areaName;
     }
     return joinedResult;
 }
