@@ -273,10 +273,10 @@ var skillName = "Alexa Team Lookup";
 //This is the welcome message for when a user starts the skill without a specific intent.
 // var WELCOME_MESSAGE = "Welcome to  " + skillName + "! I can help you find Alexa Evangelists and Solutions Architects. " + getGenericHelpMessage(data);
 
-var WELCOME_MESSAGE = "Find libraries in the United Kingdom. For example, " + getGenericHelpMessage(data)
+var WELCOME_MESSAGE = "Find Areas of Outstanding Natural Beauty in England. For example, " + getGenericHelpMessage(data)
 
 //This is the message a user will hear when they ask Alexa for help in your skill.
-var HELP_MESSAGE = "I can help you find libraries in the United Kingdom. "
+var HELP_MESSAGE = "I can help you find Areas of Outstanding Natural Beauty in England. "
 
 //This is the message a user will hear when they begin a new search
 var NEW_SEARCH_MESSAGE = getGenericHelpMessage(data);
@@ -286,7 +286,7 @@ var SEARCH_STATE_HELP_MESSAGE = getGenericHelpMessage(data);
 
 var DESCRIPTION_STATE_HELP_MESSAGE = "Here are some things you can say: Tell me more, or give me contact info";
 
-var MULTIPLE_RESULTS_STATE_HELP_MESSAGE = "Sorry, please say the name of the library you'd like to learn more about";
+var MULTIPLE_RESULTS_STATE_HELP_MESSAGE = "Sorry, please say the name of the Areas of Outstanding Natural Beauty you'd like to learn more about";
 
 // This is the message use when the decides to end the search
 var SHUTDOWN_MESSAGE = "Ok.";
