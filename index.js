@@ -79,6 +79,7 @@ var data=[
     email:"avsvds",
     phone:"asvdvs"
   },
+  //TODO
   {
     areaName:"cranborne chase and west wiltshire downs",
     address:"avsvv",
@@ -437,16 +438,16 @@ var multipleSearchResultsHandlers = Alexa.CreateStateHandler(states.MULTIPLE_RES
     },
     "SearchByNameIntent": function() {
         var slots = this.event.request.intent.slots;
-        var libraryName = isSlotValid(this.event.request, "libraryName");
+        var areaName = isSlotValid(this.event.request, "areaName");
         var region = isSlotValid(this.event.request, "region");
         var infoType = isSlotValid(this.event.request, "infoType");
 
-        console.log("libraryName:" + libraryName);
-        console.log("libraryName:" + region);
-        console.log("libraryName:" + infoType);
+        console.log("areaName:" + areaName);
+        console.log("areaName:" + region);
+        console.log("areaName:" + infoType);
         console.log("Intent Name:" + this.event.request.intent.name);
 
-        var canSearch = figureOutWhichSlotToSearchBy(libraryName,region);
+        var canSearch = figureOutWhichSlotToSearchBy(areaName,region);
         console.log("Multiple results found. canSearch is set to = " + canSearch);
         var speechOutput;
 
@@ -511,7 +512,7 @@ var descriptionHandlers = Alexa.CreateStateHandler(states.DESCRIPTION, {
         speechOutput = generateTellMeMoreMessage(person);
         repromptSpeech = "Would you like to find another library? Say yes or no";
 
-        console.log("the contact you're trying to find more info about is " + person.libraryName);
+        console.log("the contact you're trying to find more info about is " + person.areaName);
         this.handler.state = states.SEARCHMODE;
         this.attributes.lastSearch.lastSpeech = speechOutput;
         this.emit(":askWithCard", speechOutput, repromptSpeech, cardContent.title, cardContent.body);
@@ -610,7 +611,7 @@ function searchDatabase(dataset, searchQuery, searchType) {
             matchFound = false;
             console.log("no match was found using " + searchType);
         //if more than searchable items were provided, set searchType to the next item, and set i=0
-        //ideally you want to start search with  then libraryName, and then region
+        //ideally you want to start search with  then areaName, and then region
         }
     }
     return {
@@ -619,12 +620,12 @@ function searchDatabase(dataset, searchQuery, searchType) {
     };
 }
 
-function figureOutWhichSlotToSearchBy(libraryName,region) {
-  if (libraryName){
-    console.log("search by libraryName");
-    return "libraryName";
+function figureOutWhichSlotToSearchBy(areaName,region) {
+  if (areaName){
+    console.log("search by areaName");
+    return "areaName";
   }
-  else if (!libraryName && region){
+  else if (!areaName && region){
     console.log("search by region")
     return "region";
   }
@@ -635,12 +636,12 @@ function figureOutWhichSlotToSearchBy(libraryName,region) {
 }
 
 function searchByNameIntentHandler(){
-  var libraryName = isSlotValid(this.event.request, "libraryName");
+  var areaName = isSlotValid(this.event.request, "areaName");
   var region = isSlotValid(this.event.request, "region");
   var infoType = isSlotValid(this.event.request, "infoType");
   var testingThis = testingThisFunction.call(this,"hello");
 
-  var canSearch = figureOutWhichSlotToSearchBy(libraryName,region);
+  var canSearch = figureOutWhichSlotToSearchBy(areaName,region);
   console.log("canSearch is set to = " + canSearch);
 
       if (canSearch){
@@ -749,11 +750,11 @@ function searchByCityIntentHandler(){
 
 function searchByInfoTypeIntentHandler(){
   var slots = this.event.request.intent.slots;
-  var libraryName = isSlotValid(this.event.request, "libraryName");
+  var areaName = isSlotValid(this.event.request, "areaName");
   var region = isSlotValid(this.event.request, "region");
   var infoType = isSlotValid(this.event.request, "infoType");
 
-  var canSearch = figureOutWhichSlotToSearchBy(libraryName,region);
+  var canSearch = figureOutWhichSlotToSearchBy(areaName,region);
   console.log("canSearch is set to = " + canSearch);
 
       if (canSearch){
@@ -835,7 +836,7 @@ function generateNextPromptMessage(person,mode){
 }
 
 function generateSendingCardToAlexaAppMessage(person,mode){
-    var sentence = "I have sent " + person.libraryName + "'s contact info to your Alexa app" + generateNextPromptMessage(person,mode);
+    var sentence = "I have sent " + person.areaName + "'s contact info to your Alexa app" + generateNextPromptMessage(person,mode);
     return sentence;
 }
 
@@ -851,7 +852,7 @@ function generateSearchResultsMessage(searchQuery,results){
           break;
       case (results.length == 1):
           var person = results[0];
-          details = person.libraryName + " " + " is located in " + person.region + " in the " + person.address
+          details = person.areaName + " " + " is located in " + person.region + " in the " + person.address
           prompt = generateNextPromptMessage(person,"current");
           sentence = details + prompt
           console.log(sentence);
@@ -878,7 +879,7 @@ function generateSearchHelpMessage(){
 }
 
 function generateTellMeMoreMessage(person){
-    var sentence = person.libraryName + "'s phone number is: " + person.phone + " , the email address is: " + person.email + ". " + generateSendingCardToAlexaAppMessage(person,"general");
+    var sentence = person.areaName + "'s phone number is: " + person.phone + " , the email address is: " + person.email + ". " + generateSendingCardToAlexaAppMessage(person,"general");
     return sentence;
 }
 function generateSpecificInfoMessage(slots,person){
@@ -895,7 +896,7 @@ function generateSpecificInfoMessage(slots,person){
       infoTypeValue = slots.infoType.value;
     }
 
-    sentence = person.libraryName + "'s " + infoTypeValue.toLowerCase() + " is : " + person[infoTypeValue.toLowerCase()] + " . Would you like to find another library? " + getGenericHelpMessage(data);
+    sentence = person.areaName + "'s " + infoTypeValue.toLowerCase() + " is : " + person[infoTypeValue.toLowerCase()] + " . Would you like to find another library? " + getGenericHelpMessage(data);
     return optimizeForSpeech(sentence);
 }
 
@@ -922,7 +923,7 @@ function getRandomCity(arrayOfStrings) {
 
 function getRandomName(arrayOfStrings) {
     var randomNumber = getRandom(0, data.length - 1)
-    return arrayOfStrings[randomNumber].libraryName;
+    return arrayOfStrings[randomNumber].areaName;
 }
 
 function titleCase(str) {
@@ -934,7 +935,7 @@ function slowSpell(str) {
 }
 
 function generateCard(person) {
-    var cardTitle = "Contact Info for " + titleCase(person.libraryName);
+    var cardTitle = "Contact Info for " + titleCase(person.areaName);
     var cardBody = "phone: " + person.phone + " \n" + "address: " + person.address + " \n" + "email: " + person.email;
     return {
         "title": cardTitle,
@@ -946,8 +947,8 @@ function loopThroughArrayOfObjects(arrayOfStrings) {
     var joinedResult = "";
     // Looping through the each object in the array
     for (var i = 0; i < arrayOfStrings.length; i++) {
-    //concatenating names (libraryName ) for each item
-        joinedResult = joinedResult + ", " + arrayOfStrings[i].libraryName;
+    //concatenating names (areaName ) for each item
+        joinedResult = joinedResult + ", " + arrayOfStrings[i].areaName;
     }
     return joinedResult;
 }
