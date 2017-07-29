@@ -67,7 +67,7 @@ var data=[
   },
   {
     areaName:"cotswolds",
-    address:"  the cotswolds is an area in south central england containingthe cotswold hills, a range of rolling hills which rise from the meadows of the upper thames to an escarpment, named the cotswold edge. it covers 768 square miles and was designated in 1966.",
+    address:"the cotswolds is an area in south central england containing the cotswold hills, a range of rolling hills which rise from the meadows of the upper thames to an escarpment, named the cotswold edge. it covers 768 square miles and was designated in 1966.",
     region:"south west",
     email:"savsvs",
     phone:"svvdvsa"
