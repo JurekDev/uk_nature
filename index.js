@@ -17,247 +17,247 @@ var APP_ID = undefined;
 var data=[
 
     {
-      libraryname:"arnside and silverdale",
+      libraryName:"arnside and silverdale",
       address:"",
-      cityname:"north west",
+      cityName:"north west",
       email:"",
       phone:""
     },
     {
-      libraryname:"forest of bowland",
+      libraryName:"forest of bowland",
       address:"",
-      cityname:"north west",
+      cityName:"north west",
       email:"",
       phone:""
     },
     {
-      libraryname:"solway coast",
+      libraryName:"solway coast",
       address:"",
-      cityname:"north west",
+      cityName:"north west",
       email:"",
       phone:""
     },
     {
-      libraryname:"cannock chase",
+      libraryName:"cannock chase",
       address:"",
-      cityname:"west midlands",
+      cityName:"west midlands",
       email:"",
       phone:""
     },
     {
-      libraryname:"wye valley",
+      libraryName:"wye valley",
       address:"",
-      cityname:"west midlands",
+      cityName:"west midlands",
       email:"",
       phone:""
     },
     {
-      libraryname:"shropshire hills",
+      libraryName:"shropshire hills",
       address:"",
-      cityname:"west midlands",
+      cityName:"west midlands",
       email:"",
       phone:""
     },
     {
-      libraryname:"malvern hills",
+      libraryName:"malvern hills",
       address:"",
-      cityname:"west midlands",
+      cityName:"west midlands",
       email:"",
       phone:""
     },
     {
-      libraryname:"cotswolds",
+      libraryName:"cotswolds",
       address:"",
-      cityname:"south west",
+      cityName:"south west",
       email:"",
       phone:""
     },
     {
-      libraryname:"blackdown hills",
+      libraryName:"blackdown hills",
       address:"",
-      cityname:"south west",
+      cityName:"south west",
       email:"",
       phone:""
     },
     {
-      libraryname:"cranborne chase and west wiltshire downs", //todo
+      libraryName:"cranborne chase and west wiltshire downs", //TODO
       address:"",
-      cityname:"south west",
+      cityName:"south west",
       email:"",
       phone:""
     },
     {
-      libraryname:"cornwall",
+      libraryName:"cornwall",
       address:"",
-      cityname:"south west",
+      cityName:"south west",
       email:"",
       phone:""
     },
     {
-      libraryname:"dorset",
+      libraryName:"dorset",
       address:"",
-      cityname:"south west",
+      cityName:"south west",
       email:"",
       phone:""
     },
     {
-      libraryname:"east devon",
+      libraryName:"east devon",
       address:"",
-      cityname:"south west",
+      cityName:"south west",
       email:"",
       phone:""
     },
     {
-      libraryname:"isles of scilly",
+      libraryName:"isles of scilly",
       address:"",
-      cityname:"south west",
+      cityName:"south west",
       email:"",
       phone:""
     },
     {
-      libraryname:"mendip hills",
+      libraryName:"mendip hills",
       address:"",
-      cityname:"south west",
+      cityName:"south west",
       email:"",
       phone:""
     },
     {
-      libraryname:"north devon coast",
+      libraryName:"north devon coast",
       address:"",
-      cityname:"south west",
+      cityName:"south west",
       email:"",
       phone:""
     },
     {
-      libraryname:"north wessex downs",
+      libraryName:"north wessex downs",
       address:"",
-      cityname:"south west",
+      cityName:"south west",
       email:"",
       phone:""
     },
     {
-      libraryname:"quantock hills",
+      libraryName:"quantock hills",
       address:"",
-      cityname:"south west",
+      cityName:"south west",
       email:"",
       phone:""
     },
     {
-      libraryname:"south devon",
+      libraryName:"south devon",
       address:"",
-      cityname:"south west",
+      cityName:"south west",
       email:"",
       phone:""
     },
     {
-      libraryname:"tamar valley",
+      libraryName:"tamar valley",
       address:"",
-      cityname:"south west",
+      cityName:"south west",
       email:"",
       phone:""
     },
     {
-      libraryname:"northumberland coast",
+      libraryName:"northumberland coast",
       address:"",
-      cityname:"north east",
+      cityName:"north east",
       email:"",
       phone:""
     },
     {
-      libraryname:"north pennines",
+      libraryName:"north pennines",
       address:"",
-      cityname:"north east",
+      cityName:"north east",
       email:"",
       phone:""
     },
     {
-      libraryname:"lincolnshire wolds",
+      libraryName:"lincolnshire wolds",
       address:"",
-      cityname:"east midlands",
+      cityName:"east midlands",
       email:"",
       phone:""
     },
     {
-      libraryname:"dedham vale",
+      libraryName:"dedham vale",
       address:"",
-      cityname:"east of england",
+      cityName:"east of england",
       email:"",
       phone:""
     },
     {
-      libraryname:"norfolk coast",
+      libraryName:"norfolk coast",
       address:"",
-      cityname:"east of england",
+      cityName:"east of england",
       email:"",
       phone:""
     },
     {
-      libraryname:"suffolk coast and heaths",
+      libraryName:"suffolk coast and heaths",
       address:"",
-      cityname:"east of england",
+      cityName:"east of england",
       email:"",
       phone:""
     },
     {
-      libraryname:"chichester harbour",
+      libraryName:"chichester harbour",
       address:"",
-      cityname:"south east",
+      cityName:"south east",
       email:"",
       phone:""
     },
     {
-      libraryname:"chilterns",
+      libraryName:"chilterns",
       address:"",
-      cityname:"south east",
+      cityName:"south east",
       email:"",
       phone:""
     },
     {
-      libraryname:"high weald",
+      libraryName:"high weald",
       address:"",
-      cityname:"south east",
+      cityName:"south east",
       email:"",
       phone:""
     },
     {
-      libraryname:"isle of wight",
+      libraryName:"isle of wight",
       address:"",
-      cityname:"south east",
+      cityName:"south east",
       email:"",
       phone:""
     },
     {
-      libraryname:"kent downs",
+      libraryName:"kent downs",
       address:"",
-      cityname:"south east",
+      cityName:"south east",
       email:"",
       phone:""
     },
     {
-      libraryname:"south hampshire coast",
+      libraryName:"south hampshire coast",
       address:"",
-      cityname:"south east",
+      cityName:"south east",
       email:"",
       phone:""
     },
     {
-      libraryname:"surrey hills",
+      libraryName:"surrey hills",
       address:"",
-      cityname:"south east",
+      cityName:"south east",
       email:"",
       phone:""
     },
     {
-      libraryname:"howardian hills",
+      libraryName:"howardian hills",
       address:"",
-      cityname:"yorkshire and humber",
+      cityName:"yorkshire and humber",
       email:"",
       phone:""
     },
     {
-      libraryname:"nidderdale",
+      libraryName:"nidderdale",
       address:"",
-      cityname:"yorkshire and humber",
+      cityName:"yorkshire and humber",
       email:"",
       phone:""
     }
