@@ -17,250 +17,250 @@ var APP_ID = undefined;
 var data=[
 
     {
-      libraryName:"Arnside and Silverdale",
+      libraryname:"arnside and silverdale",
       address:"",
-      cityName:"North West",
+      cityname:"north west",
       email:"",
       phone:""
     },
     {
-      libraryName:"Forest of Bowland",
+      libraryname:"forest of bowland",
       address:"",
-      cityName:"North West",
+      cityname:"north west",
       email:"",
       phone:""
     },
     {
-      libraryName:"Solway Coast",
+      libraryname:"solway coast",
       address:"",
-      cityName:"North West",
+      cityname:"north west",
       email:"",
       phone:""
     },
     {
-      libraryName:"Cannock Chase",
+      libraryname:"cannock chase",
       address:"",
-      cityName:"West Midlands",
+      cityname:"west midlands",
       email:"",
       phone:""
     },
     {
-      libraryName:"Wye Valley",
+      libraryname:"wye valley",
       address:"",
-      cityName:"West Midlands",
+      cityname:"west midlands",
       email:"",
       phone:""
     },
     {
-      libraryName:"Shropshire hills",
+      libraryname:"shropshire hills",
       address:"",
-      cityName:"West Midlands",
+      cityname:"west midlands",
       email:"",
       phone:""
     },
     {
-      libraryName:"Malvern Hills",
+      libraryname:"malvern hills",
       address:"",
-      cityName:"West Midlands",
+      cityname:"west midlands",
       email:"",
       phone:""
     },
     {
-      libraryName:"Cotswolds",
+      libraryname:"cotswolds",
       address:"",
-      cityName:"South West",
+      cityname:"south west",
       email:"",
       phone:""
     },
     {
-      libraryName:"Blackdown Hills",
+      libraryname:"blackdown hills",
       address:"",
-      cityName:"South West",
+      cityname:"south west",
       email:"",
       phone:""
     },
     {
-      libraryName:"Cranborne Chase and West Wiltshire Downs", //TODO
+      libraryname:"cranborne chase and west wiltshire downs", //todo
       address:"",
-      cityName:"South West",
+      cityname:"south west",
       email:"",
       phone:""
     },
     {
-      libraryName:"Cornwall",
+      libraryname:"cornwall",
       address:"",
-      cityName:"South West",
+      cityname:"south west",
       email:"",
       phone:""
     },
     {
-      libraryName:"Dorset",
+      libraryname:"dorset",
       address:"",
-      cityName:"South West",
+      cityname:"south west",
       email:"",
       phone:""
     },
     {
-      libraryName:"East Devon",
+      libraryname:"east devon",
       address:"",
-      cityName:"South West",
+      cityname:"south west",
       email:"",
       phone:""
     },
     {
-      libraryName:"Isles of Scilly",
+      libraryname:"isles of scilly",
       address:"",
-      cityName:"South West",
+      cityname:"south west",
       email:"",
       phone:""
     },
     {
-      libraryName:"Mendip Hills",
+      libraryname:"mendip hills",
       address:"",
-      cityName:"South West",
+      cityname:"south west",
       email:"",
       phone:""
     },
     {
-      libraryName:"North Devon Coast",
+      libraryname:"north devon coast",
       address:"",
-      cityName:"South West",
+      cityname:"south west",
       email:"",
       phone:""
     },
     {
-      libraryName:"North Wessex Downs",
+      libraryname:"north wessex downs",
       address:"",
-      cityName:"South West",
+      cityname:"south west",
       email:"",
       phone:""
     },
     {
-      libraryName:"Quantock Hills",
+      libraryname:"quantock hills",
       address:"",
-      cityName:"South West",
+      cityname:"south west",
       email:"",
       phone:""
     },
     {
-      libraryName:"South Devon",
+      libraryname:"south devon",
       address:"",
-      cityName:"South West",
+      cityname:"south west",
       email:"",
       phone:""
     },
     {
-      libraryName:"Tamar Valley",
+      libraryname:"tamar valley",
       address:"",
-      cityName:"South West",
+      cityname:"south west",
       email:"",
       phone:""
     },
     {
-      libraryName:"Northumberland Coast",
+      libraryname:"northumberland coast",
       address:"",
-      cityName:"North East",
+      cityname:"north east",
       email:"",
       phone:""
     },
     {
-      libraryName:"North Pennines",
+      libraryname:"north pennines",
       address:"",
-      cityName:"North East",
+      cityname:"north east",
       email:"",
       phone:""
     },
     {
-      libraryName:"Lincolnshire Wolds",
+      libraryname:"lincolnshire wolds",
       address:"",
-      cityName:"East Midlands",
+      cityname:"east midlands",
       email:"",
       phone:""
     },
     {
-      libraryName:"Dedham Vale",
+      libraryname:"dedham vale",
       address:"",
-      cityName:"East of England",
+      cityname:"east of england",
       email:"",
       phone:""
     },
     {
-      libraryName:"Norfolk Coast",
+      libraryname:"norfolk coast",
       address:"",
-      cityName:"East of England",
+      cityname:"east of england",
       email:"",
       phone:""
     },
     {
-      libraryName:"Suffolk Coast and Heaths",
+      libraryname:"suffolk coast and heaths",
       address:"",
-      cityName:"East of England",
+      cityname:"east of england",
       email:"",
       phone:""
     },
     {
-      libraryName:"Chichester Harbour",
+      libraryname:"chichester harbour",
       address:"",
-      cityName:"South East",
+      cityname:"south east",
       email:"",
       phone:""
     },
     {
-      libraryName:"Chilterns",
+      libraryname:"chilterns",
       address:"",
-      cityName:"South East",
+      cityname:"south east",
       email:"",
       phone:""
     },
     {
-      libraryName:"High Weald",
+      libraryname:"high weald",
       address:"",
-      cityName:"South East",
+      cityname:"south east",
       email:"",
       phone:""
     },
     {
-      libraryName:"Isle of Wight",
+      libraryname:"isle of wight",
       address:"",
-      cityName:"South East",
+      cityname:"south east",
       email:"",
       phone:""
     },
     {
-      libraryName:"Kent Downs",
+      libraryname:"kent downs",
       address:"",
-      cityName:"South East",
+      cityname:"south east",
       email:"",
       phone:""
     },
     {
-      libraryName:"South Hampshire Coast",
+      libraryname:"south hampshire coast",
       address:"",
-      cityName:"South East",
+      cityname:"south east",
       email:"",
       phone:""
     },
     {
-      libraryName:"Surrey Hills",
+      libraryname:"surrey hills",
       address:"",
-      cityName:"South East",
+      cityname:"south east",
       email:"",
       phone:""
     },
     {
-      libraryName:"Howardian Hills",
+      libraryname:"howardian hills",
       address:"",
-      cityName:"Yorkshire and Humber",
+      cityname:"yorkshire and humber",
       email:"",
       phone:""
     },
     {
-      libraryName:"Nidderdale",
+      libraryname:"nidderdale",
       address:"",
-      cityName:"Yorkshire and Humber",
+      cityname:"yorkshire and humber",
       email:"",
       phone:""
-    },
+    }
 
 
 ];
@@ -274,10 +274,10 @@ var skillName = "Alexa Team Lookup";
 //This is the welcome message for when a user starts the skill without a specific intent.
 // var WELCOME_MESSAGE = "Welcome to  " + skillName + "! I can help you find Alexa Evangelists and Solutions Architects. " + getGenericHelpMessage(data);
 
-var WELCOME_MESSAGE = "Find libraries in the United Kingdom. For example, " + getGenericHelpMessage(data)
+var WELCOME_MESSAGE = "Find Areas of Outstanding Natural Beauty in the United Kingdom. For example, " + getGenericHelpMessage(data)
 
 //This is the message a user will hear when they ask Alexa for help in your skill.
-var HELP_MESSAGE = "I can help you find libraries in the United Kingdom. "
+var HELP_MESSAGE = "I can help you find Areas of Outstanding Natural Beauty in the United Kingdom. "
 
 //This is the message a user will hear when they begin a new search
 var NEW_SEARCH_MESSAGE = getGenericHelpMessage(data);
@@ -287,7 +287,7 @@ var SEARCH_STATE_HELP_MESSAGE = getGenericHelpMessage(data);
 
 var DESCRIPTION_STATE_HELP_MESSAGE = "Here are some things you can say: Tell me more, or give me contact info";
 
-var MULTIPLE_RESULTS_STATE_HELP_MESSAGE = "Sorry, please say the name of the library you'd like to learn more about";
+var MULTIPLE_RESULTS_STATE_HELP_MESSAGE = "Sorry, please say the name of the area you'd like to learn more about";
 
 // This is the message use when the decides to end the search
 var SHUTDOWN_MESSAGE = "Ok.";
@@ -427,7 +427,7 @@ var multipleSearchResultsHandlers = Alexa.CreateStateHandler(states.MULTIPLE_RES
         this.emit(":ask", output, output);
     },
     "AMAZON.YesIntent": function() {
-        var output = "Hmm. I think you said - yes, but can you please say the name of the library you'd like to learn more about?";
+        var output = "Hmm. I think you said - yes, but can you please say the name of the area you'd like to learn more about?";
         this.emit(":ask", output, output);
     },
     "AMAZON.NoIntent": function() {
