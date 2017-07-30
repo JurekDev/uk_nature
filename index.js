@@ -812,7 +812,7 @@ function searchByInfoTypeIntentHandler(){
                 var person = this.attributes.lastSearch.results[0];
                 var cardContent = generateCard(person);
                 var speechOutput = generateSpecificInfoMessage(slots,person);
-                var repromptSpeech = "Would you like to find another library? Say yes or no";
+                var repromptSpeech = "Would you like to find another area? Say yes or no";
                 this.attributes.lastSearch.lastSpeech = speechOutput;
                 this.handler.state = states.SEARCHMODE;
                 this.emit(":askWithCard", speechOutput, repromptSpeech, cardContent.title, cardContent.body, cardContent.image);
@@ -886,7 +886,7 @@ function generateSearchResultsMessage(searchQuery,results){
           console.log(sentence);
           break;
       case (results.length > 1):
-          sentence = "I found " + results.length + " matching libraries";
+          sentence = "There are " + results.length + " matching areas.";
           break;
       }
     }
