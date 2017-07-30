@@ -20,24 +20,24 @@ var data=[
     areaName:"arnside and silverdale",
     description:"arnside and silverdale is an area between lancashire and cumbria. it covers 29 square miles and was designated in 1972. the area is characterised by the two carboniferous limestone hills named arnside knott and warton crag. the coastal areas contain large salt marsh areas.",
     region:"north west",
-    email:"advdvsvvds",
-    phone:"asdvds",
+    email:"lucy@arnsidesilverdaleaonb.org.uk",
+    phone:"01524, 761034",
     image:"https://upload.wikimedia.org/wikipedia/commons/2/2a/Arnside123.jpg"
   },
   {
     areaName:"forest of bowland",
     description:"the forest of bowland, also knowwn as the bowland fells, is an area of barren gritstone fells, deep valleys and peat moorland. it is located in north-east lancashire and was designated in 1964. the region was once described as the switzerland of england because of its ancient wilderness and the highets point ward's stone, with 1841 feet.",
     region:"north west",
-    email:"avvvvvvvvvvvvvv",
-    phone:"dddddda",
+    email:"bowland@lancashire.gov.uk",
+    phone:"01200, 448000",
     image:"https://upload.wikimedia.org/wikipedia/commons/5/5f/Ward%27s_Stone.jpg"
   },
   {
     areaName:"solway coast",
     description:"  the solway coast is located in northern cumbria and contains multiple sand dunes. it stretches from rockcliffe in the north to maryport in the south, covering about 115 square kilometres of the solway plain. the area was designated in december 1964 in recognition of the quality of its landscape and its significant historic and scientific interest.",
     region:"north west",
-    email:"vdadv",
-    phone:"dvdavdv",
+    email:"brian.irving@allerdale.gov.uk",
+    phone:"01697 33055",
     image:"https://upload.wikimedia.org/wikipedia/commons/c/c2/River_Nith_estuary.jpg"
   },
   {
@@ -318,10 +318,10 @@ var DESCRIPTION_STATE_HELP_MESSAGE = "Here are some things you can say: Tell me 
 var MULTIPLE_RESULTS_STATE_HELP_MESSAGE = "Sorry, please say the name of the Areas of Outstanding Natural Beauty you'd like to learn more about";
 
 // This is the message use when the decides to end the search
-var SHUTDOWN_MESSAGE = "Ok.";
+var SHUTDOWN_MESSAGE = "Ok. Bye.";
 
 //This is the message a user will hear when they try to cancel or stop the skill.
-var EXIT_SKILL_MESSAGE = "Ok.";
+var EXIT_SKILL_MESSAGE = "Ok. Bye.";
 
 // =====================================================================================================
 // ------------------------------ Section 2. Skill Code - Intent Handlers  -----------------------------
@@ -849,12 +849,13 @@ function searchByInfoTypeIntentHandler(){
 // =====================================================================================================
 
 function generateNextPromptMessage(person,mode){
-  var infoTypes = ["description","phone number","email"]
+  var infoTypes = ["phone number","email"]
   var prompt;
 
   if (mode == "current"){
     // if the mode is current, we should give more informaiton about the current contact
-    prompt = ". You can say - tell me more, or  tell me the" +  " " + infoTypes[getRandom(0,infoTypes.length-1)];
+    var randInfoType = infoTypes[getRandom(0,infoTypes.length-1);
+    prompt = ". If you want the " +  " " + randInfoType + "" + "ask - tell me the " + randInfoType];
   }
   //if the mode is general, we should provide general help information
   else if (mode == "general"){
@@ -897,7 +898,7 @@ function generateSearchResultsMessage(searchQuery,results){
 }
 
 function getGenericHelpMessage(data){
-  var sentences = ["ask - who is " + getRandomName(data),"say - find an area of outstanding natural beauty in " + getRandomCity(data)];
+  var sentences = ["ask - tell me something about the region of " + getRandomName(data),",or - find an area of outstanding natural beauty in " + getRandomCity(data)];
   return "You can " + sentences[getRandom(0,sentences.length-1)]
 }
 
