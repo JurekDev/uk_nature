@@ -1,0 +1,132 @@
+Arnside and Silverdale:
+  phone: (01524) 761034
+  email: lucy@arnsidesilverdaleaonb.org.uk
+  web: www.arnsidesilverdaleaonb.org.uk
+Blackdown hills:
+  phone: (01823) 680681
+  email: linda.bennett@devon.gov.uk
+  web: www.blackdownhillsaonb.org.uk
+cannok chase:
+  phone: (01889) 882613
+  email: ruth.hytch@staffordshire.gov.uk
+  web: www.cannock-chase.co.uk
+chichester harbour:
+  phone: (01243) 512301
+  email: Richard.Austin@conservancy.co.uk
+  web: www.conservancy.co.uk
+chilterns:
+  phone: (01844) 355500
+  email: office@chilternsaonb.org
+  web: www.chilternsaonb.org
+cornwall:
+  phone: (01872) 322350
+  email: info@cornwall.gov.uk
+  web: www.cornwall-aonb.gov.uk
+cotswolds:
+  phone: (01451) 862000
+  email: martin.lane@cotswoldsaonb.org.uk
+  web: www.cotswoldsaonb.org.uk
+cranborne chase and west wiltshire downs:
+  phone: (01725) 517417
+  email: lindanunn@cranbornechase.org.uk
+  web: www.ccwwdaonb.org.uk
+dedham vale:
+  phone: (01394) 445225
+  email: dedhamvale.project@suffolk.gov.uk
+  web: www.dedhamvalestourvalley.org
+dorset:
+  phone: (01305) 228239
+  email: dorsetaonb@dorsetcc.gov.uk
+  web: www.dorsetaonb.org.uk
+east devon:
+  phone: (01404) 46663
+  email: Chris.Woodruff@eastdevonaonb.org.uk
+  web: www.eastdevonaonb.org.uk
+forest of bowland:
+  phone: (01200) 448000
+  email: bowland@lancashire.gov.uk
+  web: www.forestofbowland.com
+howardian hills:
+  phone: (0845) 034 9495
+  email: info@howardianhills.org.uk
+  web: www.howardianhills.org.uk
+high weald:
+  phone: (01580) 879500
+  email: g.sherwin@highweald.org
+  web: www.highweald.org
+isle of wight:
+  phone: (01983) 823855
+  email: fiona.hanna@iow.gov.uk
+  web: www.wightaonb.org.uk
+isles of scilly:
+  phone: (01720) 424317
+  email: jpearce@scilly.gov.uk
+  web: empty
+kent downs:
+  phone: (01303) 815170
+  email: mail@kentdowns.org.uk
+  web: www.kentdowns.org.uk
+lincolnshire wolds:
+  phone: (01522) 555780
+  email: stephen.jack@lincolnshire.gov.uk
+  web: www.lincswolds.org.uk
+malvern hills:
+  phone: (01684) 560616
+  email: pesrich@worcestershire.gov.uk
+  web: www.malvernhillsaonb.org.uk
+mendip hills:
+  phone: (01761) 463357
+  email: sjackson@somerset.gov.uk
+  web: www.mendiphillsaonb.org.uk
+norfolk coast:
+  phone: (01328) 850530
+  email: aonb@norfolk.gov.uk
+  web: www.norfolkcoastaonb.org.uk
+north devon:
+  phone: (01271) 388758
+  email: Jenny.Carey-Wood@devon.gov.uk
+  web: www.northdevon-aonb.org.uk
+north pennines:
+  phone: (01388) 528801
+  email:  chris@northpenninesaonb.org.uk
+  web: www.northpennines.org.uk
+north wessex downs:
+  phone: (01488) 685440
+  email:  henryoliver@northwessexdowns.org.uk
+  web: www.northwessexdowns.org.uk
+nidderdale:
+  phone: (01423) 712950
+  email: nidderdaleaonb@harrogate.gov.uk
+  web: www.nidderdaleaonb.org.uk
+northumberland coast:
+  phone: (01670) 533153
+  email: coastaonb@northumberland.gov.uk
+  web: www.northumberland.gov.uk/
+quantock hills:
+  phone: (01823) 451884
+  email: quantockhills@somerset.gov.uk
+  web: www.quantockhills.com
+shropshire hills:
+  phone: (01743) 254740
+  email: phil.holden@shropshire.gov.uk
+  web: www.shropshirehillsaonb.co.uk
+solway coast:
+  phone: (01697) 33055
+  email: brian.irving@allerdale.gov.uk
+  web: www.solwaycoastaonb.org.uk
+south devon:
+  phone: 01803 861435
+  email: roger.english@southdevonaonb.org.uk
+  web: www.southdevonaonb.org.uk
+suffolk coast and heaths:
+  phone: (01394) 445225
+  email: simon.amstutz@suffolk.gov.uk
+  web: www.suffolkcoastandheaths.org
+surrey hills:
+  phone: (01372) 220653
+  email: rob.fairbanks@surreycc.gov.uk
+  web: www.surreyhills.org
+tamar valley:
+  phone: (01822) 835030
+  email: info@tamarvalley.org.uk
+  web: www.tamarvalley.org.uk
