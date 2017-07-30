@@ -849,13 +849,13 @@ function searchByInfoTypeIntentHandler(){
 // =====================================================================================================
 
 function generateNextPromptMessage(person,mode){
-  var infoTypes = ["phone number","email"]
+  var infoTypes = ["phone number","email"];
   var prompt;
 
   if (mode == "current"){
     // if the mode is current, we should give more informaiton about the current contact
-    var randInfoType = infoTypes[getRandom(0,infoTypes.length-1);
-    prompt = ". If you want the " +  " " + randInfoType + "" + "ask - tell me the " + randInfoType];
+    var randInfoType = infoTypes[getRandom(0,infoTypes.length-1)];
+    prompt = ". If you want the " +  " " + randInfoType + "" + "ask - tell me the " + randInfoType;
   }
   //if the mode is general, we should provide general help information
   else if (mode == "general"){
