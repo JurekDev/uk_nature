@@ -421,7 +421,7 @@ var multipleSearchResultsHandlers = Alexa.CreateStateHandler(states.MULTIPLE_RES
         this.emit(":ask", output, output);
     },
     "AMAZON.YesIntent": function() {
-        var output = "Hmm. I think you said - yes, but can you please say the name of the library you'd like to learn more about?";
+        var output = "Hmm. I think you said - yes, but can you please say the name of the Area of outstanding natural beauty you'd like to learn more about?";
         this.emit(":ask", output, output);
     },
     "AMAZON.NoIntent": function() {
@@ -504,7 +504,7 @@ var descriptionHandlers = Alexa.CreateStateHandler(states.DESCRIPTION, {
         person = this.attributes.lastSearch.results[0];
         cardContent = generateCard(person); //calling the helper function to generate the card content that will be sent to the Alexa app.
         speechOutput = generateTellMeMoreMessage(person);
-        repromptSpeech = "Would you like to find another library? Say yes or no";
+        repromptSpeech = "Would you like to find another area of outstanding natural beauty? Say yes or no";
 
         console.log("the contact you're trying to find more info about is " + person.areaName);
         this.handler.state = states.SEARCHMODE;
@@ -532,7 +532,7 @@ var descriptionHandlers = Alexa.CreateStateHandler(states.DESCRIPTION, {
               person =  this.attributes.lastSearch.results[0];
               cardContent = generateCard(person);
               speechOutput = generateSpecificInfoMessage(slots,person);
-              repromptSpeech = "Would you like to find another library? Say yes or no";
+              repromptSpeech = "Would you like to find another area of outstanding natural beauty? Say yes or no";
               this.handler.state = states.SEARCHMODE;
               this.attributes.lastSearch.lastSpeech = speechOutput;
               this.emit(":askWithCard", speechOutput, repromptSpeech, cardContent.title, cardContent.body);
@@ -652,7 +652,7 @@ function searchByNameIntentHandler(){
         if (searchResults.count > 1) { //multiple results found
             console.log("Search complete. Multiple results were found");
             var listOfPeopleFound = loopThroughArrayOfObjects(lastSearch.results);
-            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ". Which library would you like to learn more about?";
+            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ". Which area of outstanding natural beauty would you like to learn more about?";
             this.handler.state = states.MULTIPLE_RESULTS; // change state to MULTIPLE_RESULTS
             this.attributes.lastSearch.lastSpeech = output;
             this.emit(":ask", output);
@@ -709,7 +709,7 @@ function searchByCityIntentHandler(){
         if (searchResults.count > 1) { //multiple results found
             console.log("Search completed by city. Multiple results were found");
             var listOfPeopleFound = loopThroughArrayOfObjects(lastSearch.results);
-            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ". Which library would you like to learn more about?";
+            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ". Which area of outstanding natural beauty would you like to learn more about?";
             this.handler.state = states.MULTIPLE_RESULTS; // change state to MULTIPLE_RESULTS
             this.attributes.lastSearch.lastSpeech = output;
             this.emit(":ask", output);
@@ -765,7 +765,7 @@ function searchByInfoTypeIntentHandler(){
         if (searchResults.count > 1) { //multiple results found
             console.log("multiple results were found");
             var listOfPeopleFound = loopThroughArrayOfObjects(lastSearch.results);
-            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ". Which library would you like to learn more about?";
+            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ". Which area of outstanding natural beauty would you like to learn more about?";
             this.handler.state = states.MULTIPLE_RESULTS; // change state to MULTIPLE_RESULTS
             this.attributes.lastSearch.lastSpeech = output;
             this.emit(":ask", output);
@@ -863,7 +863,7 @@ function generateSearchResultsMessage(searchQuery,results){
 }
 
 function getGenericHelpMessage(data){
-  var sentences = ["ask - who is " + getRandomName(data),"say - find an library in " + getRandomCity(data)];
+  var sentences = ["ask - who is " + getRandomName(data),"say - find an area of outstanding natural beauty in " + getRandomCity(data)];
   return "You can " + sentences[getRandom(0,sentences.length-1)]
 }
 
@@ -890,7 +890,7 @@ function generateSpecificInfoMessage(slots,person){
       infoTypeValue = slots.infoType.value;
     }
 
-    sentence = person.areaName + "'s " + infoTypeValue.toLowerCase() + " is : " + person[infoTypeValue.toLowerCase()] + " . Would you like to find another library? " + getGenericHelpMessage(data);
+    sentence = person.areaName + "'s " + infoTypeValue.toLowerCase() + " is : " + person[infoTypeValue.toLowerCase()] + " . Would you like to find another area of outstanding natural beauty? " + getGenericHelpMessage(data);
     return optimizeForSpeech(sentence);
 }
 
