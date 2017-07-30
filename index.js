@@ -849,7 +849,7 @@ function searchByInfoTypeIntentHandler(){
 // =====================================================================================================
 
 function generateNextPromptMessage(person,mode){
-  var infoTypes = ["phone number","email"]
+  var infoTypes = ["description","phone number","email"]
   var prompt;
 
   if (mode == "current"){
@@ -897,8 +897,8 @@ function generateSearchResultsMessage(searchQuery,results){
 }
 
 function getGenericHelpMessage(data){
-  var sentences = ["ask - tell me something about " + getRandomName(data),"say - find an area of outstanding natural beauty in " + getRandomCity(data)];
-  return "You can " + sentences[getRandomBinary()]
+  var sentences = ["ask - who is " + getRandomName(data),"say - find an area of outstanding natural beauty in " + getRandomCity(data)];
+  return "You can " + sentences[getRandom(0,sentences.length-1)]
 }
 
 function generateSearchHelpMessage(){
@@ -943,10 +943,6 @@ exports.handler = function(event, context, callback) {
 
 function getRandom(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
-}
-
-function getRandomBinary() {
-    return Math.random() % 2;
 }
 
 function getRandomCity(arrayOfStrings) {
