@@ -99,7 +99,7 @@ var data=[
   },
   {
     areaName:"cornwall",
-    description:"the  cornwall area of outstanding beauty covers eleven coastlines and the bodmin moor. it covers 370 square miles in cornwall, england and was designated in 1959.",
+    description:"the cornwall area of outstanding beauty covers eleven coastlines and the bodmin moor. it covers 370 square miles in cornwall, england and was designated in 1959.",
     region:"south west",
     email:"avsdvs",
     phone:"avsdvds",
