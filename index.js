@@ -183,7 +183,8 @@ var data=[
     description:"the deadham vale is an area on the essex suffolk border in east england. it supports a viable and diverse agriculture. the river stour is the key landscape focus and its course is defined by bank-side trees and wet meadows.",
     region:"east of england",
     email:"abbbb",
-    phone:"axxx"
+    phone:"axxx",
+    image:"https://upload.wikimedia.org/wikipedia/commons/f/f2/John_Constable_012.jpg"
   },
   {
     areaName:"norfolk coast",
@@ -509,7 +510,7 @@ var descriptionHandlers = Alexa.CreateStateHandler(states.DESCRIPTION, {
         console.log("the contact you're trying to find more info about is " + person.areaName);
         this.handler.state = states.SEARCHMODE;
         this.attributes.lastSearch.lastSpeech = speechOutput;
-        this.emit(":askWithCard", speechOutput, repromptSpeech, cardContent.title, cardContent.body);
+        this.emit(":askWithCard", speechOutput, repromptSpeech, cardContent.title, cardContent.body, cardContent.image);
       }
       else{
         speechOutput = getGenericHelpMessage(data);
@@ -535,7 +536,7 @@ var descriptionHandlers = Alexa.CreateStateHandler(states.DESCRIPTION, {
               repromptSpeech = "Would you like to find another area of outstanding natural beauty? Say yes or no";
               this.handler.state = states.SEARCHMODE;
               this.attributes.lastSearch.lastSpeech = speechOutput;
-              this.emit(":askWithCard", speechOutput, repromptSpeech, cardContent.title, cardContent.body);
+              this.emit(":askWithCard", speechOutput, repromptSpeech, cardContent.title, cardContent.body, cardContent.image);
             } else {
               //not a valid slot. no card needs to be set up. respond with simply a voice response.
               speechOutput = generateSearchHelpMessage();
@@ -781,7 +782,7 @@ function searchByInfoTypeIntentHandler(){
                 var repromptSpeech = "Would you like to find another library? Say yes or no";
                 this.attributes.lastSearch.lastSpeech = speechOutput;
                 this.handler.state = states.SEARCHMODE;
-                this.emit(":askWithCard", speechOutput, repromptSpeech, cardContent.title, cardContent.body);
+                this.emit(":askWithCard", speechOutput, repromptSpeech, cardContent.title, cardContent.body, cardContent.image);
                 // this.emitWithState("TellMeThisIntent");
             }
             else{
@@ -931,9 +932,14 @@ function slowSpell(str) {
 function generateCard(person) {
     var cardTitle = "Contact Info for " + titleCase(person.areaName);
     var cardBody = "phone: " + person.phone + " \n" + "description: " + person.description + " \n" + "email: " + person.email;
+    var imageObj = {
+    smallImageUrl: person.image,
+    largeImageUrl: person.image,
+    };
     return {
         "title": cardTitle,
         "body": cardBody,
+        "image": imageObj
     };
 }
 
