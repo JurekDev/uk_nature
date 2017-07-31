@@ -965,7 +965,7 @@ function slowSpell(str) {
 
 function generateCard(person) {
     var cardTitle = "Contact Info for " + titleCase(person.areaName);
-    var cardBody = "phone: " + person.phone + " \n" + "description: " + person.description + " \n" + "email: " + person.email;
+    var cardBody = "phone: " + person.phone + " \n" + "email: " + person.email;
     var imageObj = {
     smallImageUrl: person.image,
     largeImageUrl: person.image,
