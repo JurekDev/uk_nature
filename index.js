@@ -898,7 +898,7 @@ function generateSearchResultsMessage(searchQuery,results){
 }
 
 function getGenericHelpMessage(data){
-  var sentences = ["ask - tell me something about the area of " + getRandomName(data),",or - find an area of outstanding natural beauty in " + getRandomCity(data)];
+  var sentences = ["ask - tell me something about the area of " + getRandomName(data),"ask - find an area of outstanding natural beauty in " + getRandomCity(data)];
   return "You can " + sentences[getRandom(0,sentences.length-1)]
 }
 
