@@ -12,7 +12,7 @@ cannok chase:
   web: www.cannock-chase.co.uk
 chichester harbour:
   phone: (01243) 512301
-  email: Richard.Austin@conservancy.co.uk
+  email: richard.austin@conservancy.co.uk
   web: www.conservancy.co.uk
 chilterns:
   phone: (01844) 355500
@@ -40,7 +40,7 @@ dorset:
   web: www.dorsetaonb.org.uk
 east devon:
   phone: (01404) 46663
-  email: Chris.Woodruff@eastdevonaonb.org.uk
+  email: chris.woodruff@eastdevonaonb.org.uk
   web: www.eastdevonaonb.org.uk
 forest of bowland:
   phone: (01200) 448000
@@ -84,7 +84,7 @@ norfolk coast:
   web: www.norfolkcoastaonb.org.uk
 north devon:
   phone: (01271) 388758
-  email: Jenny.Carey-Wood@devon.gov.uk
+  email: jenny.carey-wood@devon.gov.uk
   web: www.northdevon-aonb.org.uk
 north pennines:
   phone: (01388) 528801
