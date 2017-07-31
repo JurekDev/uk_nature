@@ -22,6 +22,7 @@ var data=[
     region:"north west",
     email:"lucy@arnsidesilverdaleaonb.org.uk",
     phone:"01524 761034",
+    website:"www.arnsidesilverdaleaonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/2/2a/Arnside123.jpg"
   },
   {
@@ -30,6 +31,7 @@ var data=[
     region:"north west",
     email:"bowland@lancashire.gov.uk",
     phone:"01200 448000",
+    website:"www.forestofbowland.com",
     image:"https://upload.wikimedia.org/wikipedia/commons/5/5f/Ward%27s_Stone.jpg"
   },
   {
@@ -38,6 +40,7 @@ var data=[
     region:"north west",
     email:"brian.irving@allerdale.gov.uk",
     phone:"01697 33055",
+    website:"www.solwaycoastaonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/c/c2/River_Nith_estuary.jpg"
   },
   {
@@ -46,14 +49,16 @@ var data=[
     region:"west midlands",
     email:"ruth.hytch@staffordshire.gov.uk",
     phone:"01889 882613",
+    website:"www.cannock-chase.co.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/2/26/Cannock_Chase_Path.jpg"
   },
   {
     areaName:"wye valley",
     description:"the wye valley is located between england and wales and is one of the most dramatic and scenic landscapes in southern britain. it was designated in 1971 and covers an area of 126 square miles.the area is particular recognised for its limestone gorge scenery and dense native woodlands. there are also archaeological and industrial remains.",
     region:"west midlands",
-    email:"avvddv",
-    phone:"avddvv",
+    email:"information@wyevalleyaonb.co.uk",
+    phone:"01600 710846",
+    website:"www.wyevalleyaonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/6/6e/View_of_Tintern_Abbey.jpg"
   },
   {
@@ -62,6 +67,7 @@ var data=[
     region:"west midlands",
     email:"phil.holden@shropshire.gov.uk",
     phone:"01743 254740",
+    website:"www.shropshirehillsaonb.co.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/8/88/Shropshire_Long_Mynd.jpg"
   },
   {
@@ -70,6 +76,7 @@ var data=[
     region:"west midlands",
     email:"pesrich@worcestershire.gov.uk",
     phone:"01684 560616",
+    website:"www.malvernhillsaonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/3/3f/Malvern_Hills_-_England.jpg"
   },
   {
@@ -78,6 +85,7 @@ var data=[
     region:"south west",
     email:"martin.lane@cotswoldsaonb.org.uk",
     phone:"01451 862000",
+    website:"www.cotswoldsaonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/e/e7/Castle_combe_cotswolds.jpg"
   },
   {
@@ -86,6 +94,7 @@ var data=[
     region:"south west",
     email:"avsvds",
     phone:"asvdvs",
+    website:"www.blackdownhillsaonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/4/40/Blackdown_Hills_at_Dalwood.JPG"
   },
   //TODO
@@ -95,6 +104,7 @@ var data=[
     region:"south west",
     email:"lindanunn@cranbornechase.org.uk",
     phone:"01725 517417",
+    website:"www.ccwwdaonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/1/1b/Dorset_brings_01.jpg"
   },
   {
@@ -103,6 +113,7 @@ var data=[
     region:"south west",
     email:"info@cornwall.gov.uk",
     phone:"01872 322350",
+    website:"www.cornwall-aonb.gov.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/f/fa/Cape_Cornwall_%28Judithili%29_edit.jpg"
   },
   {
@@ -111,6 +122,7 @@ var data=[
     region:"south west",
     email:"dorsetaonb@dorsetcc.gov.uk",
     phone:"01305 228239",
+    website:"www.dorsetaonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/6/6c/Blue_lias_cliffs_at_Lyme_Regis.jpg"
   },
   {
@@ -119,6 +131,7 @@ var data=[
     region:"south west",
     email:"chris.woodruff@eastdevonaonb.org.uk",
     phone:"01404 46663",
+    website:"",
     image:"https://upload.wikimedia.org/wikipedia/commons/b/b7/Snow05_009.jpg"
   },
   {
@@ -127,6 +140,7 @@ var data=[
     region:"south west",
     email:"jpearce@scilly.gov.uk",
     phone:"01720 424317",
+    website:"www.visitislesofscilly.com",
     image:"https://upload.wikimedia.org/wikipedia/commons/e/e7/Tresco_-_aerial_photo6_edit.jpg"
   },
   {
@@ -135,6 +149,7 @@ var data=[
     region:"south west",
     email:"sjackson@somerset.gov.uk",
     phone:"01761 463357",
+    website:"www.mendiphillsaonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/d/dc/Crook_Peak_towards_Compton_Hill.jpg"
   },
   {
@@ -143,6 +158,7 @@ var data=[
     region:"south west",
     email:"jenny.carey-wood@devon.gov.uk",
     phone:"01271 388758",
+    website:"www.northdevon-aonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/9/96/Cliffs_Clovelly_Coast_West.JPG"
   },
   {
@@ -151,6 +167,7 @@ var data=[
     region:"south west",
     email:"henryoliver@northwessexdowns.org.uk",
     phone:"01488 685440",
+    website:"www.northwessexdowns.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/4/40/The_South_Western_Slopes_of_Walbury_Hill_-_geograph.org.uk_-_62332.jpg"
   },
   {
@@ -159,6 +176,7 @@ var data=[
     region:"south west",
     email:"quantockhills@somerset.gov.uk",
     phone:"01823 451884",
+    website:"www.quantockhills.com",
     image:"https://upload.wikimedia.org/wikipedia/commons/1/13/UplandQuantocks.jpg"
   },
   {
@@ -167,6 +185,7 @@ var data=[
     region:"south west",
     email:"roger.english@southdevonaonb.org.uk",
     phone:"01803 861435",
+    website:"www.southdevonaonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/4/42/Slapton_Sands_1.jpg"
   },
   {
@@ -175,6 +194,7 @@ var data=[
     region:"south west",
     email:"info@tamarvalley.org.uk",
     phone:"01822 835030",
+    website:"www.tamarvalley.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/6/67/River_Tamar%2C_near_Bohetherick_-_geograph.org.uk_-_977730.jpg"
   },
   {
@@ -183,6 +203,7 @@ var data=[
     region:"north east",
     email:"coastaonb@northumberland.gov.uk",
     phone:"01670 533153",
+    website:"www.northumberland.gov.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/e/e1/Bamburgh2006.jpg"
   },
   {
@@ -191,6 +212,7 @@ var data=[
     region:"north east",
     email:"chris@northpenninesaonb.org.uk",
     phone:"01388 528801",
+    website:"www.northpennines.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/f/f8/Cauldron_Snout_-_July_2006.jpg"
   },
   {
@@ -199,6 +221,7 @@ var data=[
     region:"east midlands",
     email:"stephen.jack@lincolnshire.gov.uk",
     phone:"01522 555780",
+    website:"www.lincswolds.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/9/9f/Lincolnshirewolds.jpg"
   },
   {
@@ -207,6 +230,7 @@ var data=[
     region:"east of england",
     email:"dedhamvale.project@suffolk.gov.uk",
     phone:"01394 445225",
+    website:"www.dedhamvalestourvalley.org",
     image:"https://upload.wikimedia.org/wikipedia/commons/f/f2/John_Constable_012.jpg"
   },
   {
@@ -215,6 +239,7 @@ var data=[
     region:"east of england",
     email:"aonb@norfolk.gov.uk",
     phone:"01328 850530",
+    website:"www.norfolkcoastaonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/3/3c/Cromer_beach_summer_UK.JPG"
   },
   {
@@ -223,6 +248,7 @@ var data=[
     region:"east of england",
     email:"simon.amstutz@suffolk.gov.uk",
     phone:"01394 445225",
+    website:"www.suffolkcoastandheaths.org",
     image:"https://upload.wikimedia.org/wikipedia/commons/b/b7/Dunwich_seafront_today.JPG"
   },
   {
@@ -231,6 +257,7 @@ var data=[
     region:"south east",
     email:"richard.austin@conservancy.co.uk",
     phone:"01243 512301",
+    website:"www.conservancy.co.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/1/16/View_Across_Chichester_Harbour_-_geograph.org.uk_-_1717805.jpg"
   },
   //TODO Chiltern Hils
@@ -240,6 +267,7 @@ var data=[
     region:"south east",
     email:"office@chilternsaonb.org",
     phone:"01844 355500",
+    website:"www.chilternsaonb.org",
     image:"https://upload.wikimedia.org/wikipedia/commons/d/df/Chilterns_England_Rolling_Countryside.jpg"
   },
   {
@@ -248,6 +276,7 @@ var data=[
     region:"south east",
     email:"g.sherwin@highweald.org",
     phone:"01580 879500",
+    website:"www.highweald.org",
     image:"https://upload.wikimedia.org/wikipedia/en/f/fa/Highwealdview.jpg"
   },
   {
@@ -256,6 +285,7 @@ var data=[
     region:"south east",
     email:"fiona.hanna@iow.gov.uk",
     phone:"01983 823855",
+    website:"www.wightaonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/7/7d/IsleOfWightFromTheISS.jpg"
   },
   {
@@ -264,6 +294,7 @@ var data=[
     region:"south east",
     email:"mail@kentdowns.org.uk",
     phone:"01303 815170",
+    website:"www.kentdowns.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/8/82/DownsRanscombeFieldToMway0734c.JPG"
   },
   {
@@ -272,6 +303,7 @@ var data=[
     region:"south east",
     email:"rob.fairbanks@surreycc.gov.uk",
     phone:"01372 220653",
+    website:"www.surreyhills.org",
     image:"https://upload.wikimedia.org/wikipedia/commons/0/0e/CalvertRoadDorking.jpg"
   },
   {
@@ -280,14 +312,16 @@ var data=[
     region:"yorkshire and humber",
     email:"info@howardianhills.org.uk",
     phone:"0845 034 9495",
+    website:"www.howardianhills.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/0/09/Howardian_Hills.jpg"
   },
   {
     areaName:"nidderdale",
     description:"nidderdale is located in north yorkshire and includes the attractions brimham rocks and the coldstone cut. it was designated in 1994 and it covers an area of 233 square miles.",
     region:"yorkshire and humber",
-    email:"dca",
+    email:"nidderdaleaonb@harrogate.gov.uk",
     phone:"01423 712950",
+    website:"www.nidderdaleaonb.org.uk",
     image:"https://upload.wikimedia.org/wikipedia/commons/3/3b/Upper_Nidderdale.JPG"
   }
 
@@ -965,7 +999,7 @@ function slowSpell(str) {
 
 function generateCard(person) {
     var cardTitle = "Contact Info for " + titleCase(person.areaName);
-    var cardBody = "phone: " + person.phone + " \n" + "email: " + person.email; //TODO
+    var cardBody = "phone: " + person.phone + " \n" + "email: " + person.email + " \n" + "website: " + person.website; //TODO
     var imageObj = {
     smallImageUrl: person.image,
     largeImageUrl: person.image,
