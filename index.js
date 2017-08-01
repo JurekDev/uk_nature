@@ -607,7 +607,7 @@ var descriptionHandlers = Alexa.CreateStateHandler(states.DESCRIPTION, {
             } else {
               //not a valid slot. no card needs to be set up. respond with simply a voice response.
               speechOutput = generateSearchHelpMessage();
-              repromptSpeech = "You can ask me for the email address or the phone number."; //TODO
+              repromptSpeech = "You can ask me for the email address or the phone number.";
               this.attributes.lastSearch.lastSpeech = speechOutput;
               this.handler.state = states.SEARCHMODE;
               this.emit(":ask", speechOutput, repromptSpeech);
@@ -932,7 +932,7 @@ function generateSearchResultsMessage(searchQuery,results){
 }
 
 function getGenericHelpMessage(data){
-  var sentences = [" tell me the name of a region. for example - " + getRandomName(data)," tell me the name of an  A.O.N.B. - for example - " + getRandomCity(data)]; //TODO
+  var sentences = [" tell me the name of a region. for example - " + getRandomName(data)," tell me the name of an  A.O.N.B. - for example - " + getRandomCity(data)];
   return "You can " + sentences[getRandom(0,sentences.length-1)]
 }
 
@@ -949,15 +949,8 @@ function generateSpecificInfoMessage(slots,person){
     var infoTypeValue;
     var sentence;
 
-//TODO delete github stuff
-    if (slots.infoType.value == "git hub"){
-      infoTypeValue = "description";
-      console.log("resetting gith hub to description");
-    }
-    else{
       console.log("no reset required for description");
       infoTypeValue = slots.infoType.value;
-    }
 
     sentence = person.areaName + "'s " + infoTypeValue.toLowerCase() + " is : " + person[infoTypeValue.toLowerCase()] + " . Would you like to find another area of outstanding natural beauty? " + getGenericHelpMessage(data);
     return optimizeForSpeech(sentence);
