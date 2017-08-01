@@ -324,7 +324,7 @@ var data=[
 ];
 
 
-var skillName = "Alexa Team Lookup";
+var skillName = "Areas Of Natural Beauty England";
 
 //This is the welcome message for when a user starts the skill without a specific intent.
 // var WELCOME_MESSAGE = "Welcome to  " + skillName + "! I can help you find Alexa Evangelists and Solutions Architects. " + getGenericHelpMessage(data);
