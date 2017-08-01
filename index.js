@@ -109,7 +109,7 @@ var data=[
   },
   {
     areaName:"cornwall",
-    description:"the cornwall area of outstanding beauty covers eleven coastlines and the bodmin moor. it covers 370 square miles in cornwall, england and was designated in 1959.",
+    description:"the cornwall area of outstanding beauty covers eleven coastlines and the bodmin moor. it covers 370 square miles in cornwall and was designated in 1959.",
     region:"south west",
     email:"info@cornwall.gov.uk",
     phone:"01872 322350",
@@ -336,7 +336,7 @@ var skillName = "Alexa Team Lookup";
 //This is the welcome message for when a user starts the skill without a specific intent.
 // var WELCOME_MESSAGE = "Welcome to  " + skillName + "! I can help you find Alexa Evangelists and Solutions Architects. " + getGenericHelpMessage(data);
 
-var WELCOME_MESSAGE = "Find Areas of Outstanding Natural Beauty in England. For example, " + getGenericHelpMessage(data)
+var WELCOME_MESSAGE = "Welcome to Areas of Natural Beauty in England. Tell me the name of the area you want to learn more about. Or tell me the name of the region you want to search an A.O.N.B. ."
 
 //This is the message a user will hear when they ask Alexa for help in your skill.
 var HELP_MESSAGE = "I can help you find Areas of Outstanding Natural Beauty in England. "
@@ -720,7 +720,7 @@ function searchByNameIntentHandler(){
         if (searchResults.count > 1) { //multiple results found
             console.log("Search complete. Multiple results were found");
             var listOfPeopleFound = loopThroughArrayOfObjects(lastSearch.results);
-            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ". Which area of outstanding natural beauty would you like to learn more about?";
+            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ".   Tell me the area you would like to learn more about?";
             this.handler.state = states.MULTIPLE_RESULTS; // change state to MULTIPLE_RESULTS
             this.attributes.lastSearch.lastSpeech = output;
             this.emit(":ask", output);
@@ -777,7 +777,7 @@ function searchByCityIntentHandler(){
         if (searchResults.count > 1) { //multiple results found
             console.log("Search completed by city. Multiple results were found");
             var listOfPeopleFound = loopThroughArrayOfObjects(lastSearch.results);
-            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ". Which area of outstanding natural beauty would you like to learn more about?";
+            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ".   Tell me the area you would like to learn more about?";
             this.handler.state = states.MULTIPLE_RESULTS; // change state to MULTIPLE_RESULTS
             this.attributes.lastSearch.lastSpeech = output;
             this.emit(":ask", output);
@@ -921,7 +921,7 @@ function generateSearchResultsMessage(searchQuery,results){
           console.log(sentence);
           break;
       case (results.length > 1):
-          sentence = "There are " + results.length + " matching areas.";
+          sentence = "I found " + results.length + " A.O.N.B.'s ."; //TODO
           break;
       }
     }
@@ -932,7 +932,7 @@ function generateSearchResultsMessage(searchQuery,results){
 }
 
 function getGenericHelpMessage(data){
-  var sentences = ["ask - tell me something about the area of " + getRandomName(data),"ask - find an area of outstanding natural beauty in " + getRandomCity(data)];
+  var sentences = ["ask - tell me something about the area of " + getRandomName(data),"ask - find an area of outstanding natural beauty in " + getRandomCity(data)]; //TODO
   return "You can " + sentences[getRandom(0,sentences.length-1)]
 }
 
