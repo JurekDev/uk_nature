@@ -923,7 +923,7 @@ function generateSearchResultsMessage(searchQuery,results){
 }
 
 function getGenericHelpMessage(data){
-  var sentences = [" tell me the name of a region. for example - " + getRandomName(data)," tell me the name of an  A.O.N.B. - for example - " + getRandomCity(data)];
+  var sentences = [" tell me the name of a region. for example - " + getRandomCity(data)," tell me the name of an  A.O.N.B. - for example - " +  getRandomName(data)];
   return "You can " + sentences[getRandom(0,sentences.length-1)]
 }
 
@@ -957,8 +957,8 @@ exports.handler = function(event, context, callback) {
 // =====================================================================================================
 // ------------------------------------ Section 4. Helper Functions  -----------------------------------
 // =====================================================================================================
-// For more helper functions, visit the Alexa cookbook at https://github.com/alexa/alexa-cookbook
-//======================================================================================================
+
+
 
 function getRandom(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
