@@ -109,7 +109,7 @@ var data=[
   },
   {
     areaName:"cornwall",
-    description:"the cornwall area of outstanding beauty covers eleven coastlines and the bodmin moor. it covers 370 square miles in cornwall and was designated in 1959.",
+    description:"the cornwall area of outstanding natural beauty covers eleven coastlines and the bodmin moor. it covers 370 square miles and was designated in 1959. the natural environment is accessed by the spectacular south west coast path providing walkers with miles of gentle strolls and challenging hikes.",
     region:"south west",
     email:"info@cornwall.gov.uk",
     phone:"01872 322350",
@@ -889,7 +889,7 @@ function generateNextPromptMessage(person,mode){
   if (mode == "current"){
     // if the mode is current, we should give more informaiton about the current contact
     var randInfoType = infoTypes[getRandom(0,infoTypes.length-1)];
-    prompt = ". - just ask for the " + randInfoType;
+    prompt = ". - if you want contact info, just ask for the " + randInfoType;
   }
   //if the mode is general, we should provide general help information
   else if (mode == "general"){
