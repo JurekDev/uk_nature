@@ -932,7 +932,7 @@ function generateSearchResultsMessage(searchQuery,results){
 }
 
 function getGenericHelpMessage(data){
-  var sentences = ["just tell me the name a region. for example - " + getRandomName(data),"just tell me the name an  A.O.N.B. - for example - " + getRandomCity(data)]; //TODO
+  var sentences = ["just tell me the name of a region. for example - " + getRandomName(data),"just tell me the name of an  A.O.N.B. - for example - " + getRandomCity(data)]; //TODO
   return "You can " + sentences[getRandom(0,sentences.length-1)]
 }
 
