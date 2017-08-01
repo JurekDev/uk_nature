@@ -1,10 +1,6 @@
 "use strict";
 const Alexa = require("alexa-sdk"); // import the library
 
-//=========================================================================================================================================
-//TODO: The items below this comment need your attention
-//=========================================================================================================================================
-
 //Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.
 //Make sure to enclose your value in quotes, like this:  var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
 var APP_ID = undefined;
@@ -327,9 +323,6 @@ var data=[
 
 ];
 
-//======================================================================================================
-//TODO: Replace these text strings to edit the welcome and help messages
-//======================================================================================================
 
 var skillName = "Alexa Team Lookup";
 
@@ -360,8 +353,6 @@ var EXIT_SKILL_MESSAGE = "Ok. Bye.";
 // =====================================================================================================
 // ------------------------------ Section 2. Skill Code - Intent Handlers  -----------------------------
 // =====================================================================================================
-// CAUTION: Editing anything below this line might break your skill.
-//======================================================================================================
 
 var states = {
     SEARCHMODE: "_SEARCHMODE",
@@ -992,7 +983,7 @@ function slowSpell(str) {
 
 function generateCard(person) {
     var cardTitle = "Contact Info for " + titleCase(person.areaName);
-    var cardBody = "phone: " + person.phone + " \n" + "email: " + person.email + " \n" + "website: " + person.website; //TODO
+    var cardBody = "phone: " + person.phone + " \n" + "email: " + person.email + " \n" + "website: " + person.website;
     var imageObj = {
     smallImageUrl: person.image,
     largeImageUrl: person.image,
