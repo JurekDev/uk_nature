@@ -32,7 +32,7 @@ var data=[
   },
   {
     areaName:"solway coast",
-    description:"  the solway coast is located in northern cumbria and contains multiple sand dunes. it stretches from rockcliffe in the north to maryport in the south, covering about 115 square kilometres of the solway plain. the area was designated in december 1964 in recognition of the quality of its landscape and its significant historic and scientific interest.",
+    description:"the solway coast is located in northern cumbria and contains multiple sand dunes. it stretches from rockcliffe in the north to maryport in the south, covering about 115 square kilometres of the solway plain. the area was designated in december 1964 in recognition of the quality of its landscape and its significant historic and scientific interest.",
     region:"north west",
     email:"brian.irving@allerdale.gov.uk",
     phone:"01697 33055",
