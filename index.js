@@ -607,7 +607,7 @@ var descriptionHandlers = Alexa.CreateStateHandler(states.DESCRIPTION, {
             } else {
               //not a valid slot. no card needs to be set up. respond with simply a voice response.
               speechOutput = generateSearchHelpMessage();
-              repromptSpeech = "You can ask me - what's the phone number, or give me the description";
+              repromptSpeech = "You can ask me - what's the phone number, or give me the description"; //TODO
               this.attributes.lastSearch.lastSpeech = speechOutput;
               this.handler.state = states.SEARCHMODE;
               this.emit(":ask", speechOutput, repromptSpeech);
@@ -889,7 +889,7 @@ function generateNextPromptMessage(person,mode){
   if (mode == "current"){
     // if the mode is current, we should give more informaiton about the current contact
     var randInfoType = infoTypes[getRandom(0,infoTypes.length-1)];
-    prompt = ". If you want the " +  " " + randInfoType + "" + "ask - tell me the " + randInfoType;
+    prompt = ". If you want the " +  " " + randInfoType + "" + " ask - tell me the " + randInfoType;
   }
   //if the mode is general, we should provide general help information
   else if (mode == "general"){
@@ -932,7 +932,7 @@ function generateSearchResultsMessage(searchQuery,results){
 }
 
 function getGenericHelpMessage(data){
-  var sentences = ["just tell me the name of a region. for example - " + getRandomName(data),"just tell me the name of an  A.O.N.B. - for example - " + getRandomCity(data)]; //TODO
+  var sentences = [" tell me the name of a region. for example - " + getRandomName(data)," tell me the name of an  A.O.N.B. - for example - " + getRandomCity(data)]; //TODO
   return "You can " + sentences[getRandom(0,sentences.length-1)]
 }
 
