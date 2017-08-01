@@ -336,7 +336,7 @@ var skillName = "Alexa Team Lookup";
 //This is the welcome message for when a user starts the skill without a specific intent.
 // var WELCOME_MESSAGE = "Welcome to  " + skillName + "! I can help you find Alexa Evangelists and Solutions Architects. " + getGenericHelpMessage(data);
 
-var WELCOME_MESSAGE = "Welcome to Areas of Natural Beauty in England. Tell me the name of the area you want to learn more about. Or tell me the name of the region you want to search an A.O.N.B. ."
+var WELCOME_MESSAGE = "Welcome to Areas of outstanding Natural Beauty in England. Tell me the name of the area you want to learn more about. Or tell me the name of the region you want to search an A.O.N.B. ."
 
 //This is the message a user will hear when they ask Alexa for help in your skill.
 var HELP_MESSAGE = "I can help you find Areas of Outstanding Natural Beauty in England. "
@@ -921,7 +921,7 @@ function generateSearchResultsMessage(searchQuery,results){
           console.log(sentence);
           break;
       case (results.length > 1):
-          sentence = "I found " + results.length + " A.O.N.B.'s ."; //TODO
+          sentence = "I found " + results.length + " A.O.N.B.'s.";
           break;
       }
     }
@@ -932,7 +932,7 @@ function generateSearchResultsMessage(searchQuery,results){
 }
 
 function getGenericHelpMessage(data){
-  var sentences = ["ask - tell me something about the area of " + getRandomName(data),"ask - find an area of outstanding natural beauty in " + getRandomCity(data)]; //TODO
+  var sentences = ["just tell me the name a region. for example - " + getRandomName(data),"just tell me the name an  A.O.N.B. - for example - " + getRandomCity(data)]; //TODO
   return "You can " + sentences[getRandom(0,sentences.length-1)]
 }
 
