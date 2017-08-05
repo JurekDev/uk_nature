@@ -28,7 +28,7 @@ var data=[
     email:"bowland@lancashire.gov.uk",
     phone:"01200 448000",
     website:"www.forestofbowland.com",
-    image:"https://upload.wikimedia.org/wikipedia/commons/5/5f/Ward%27s_Stone.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Langden_Brook_-_geograph.org.uk_-_342024.jpg/220px-Langden_Brook_-_geograph.org.uk_-_342024.jpg"
   },
   {
     areaName:"solway coast",
@@ -37,7 +37,7 @@ var data=[
     email:"brian.irving@allerdale.gov.uk",
     phone:"01697 33055",
     website:"www.solwaycoastaonb.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/c/c2/River_Nith_estuary.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Near_Mawbray_Yard%2C_Cumbria.JPG/220px-Near_Mawbray_Yard%2C_Cumbria.JPG"
   },
   {
     areaName:"cannock chase",
@@ -46,7 +46,7 @@ var data=[
     email:"ruth.hytch@staffordshire.gov.uk",
     phone:"01889 882613",
     website:"www.cannock-chase.co.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/2/26/Cannock_Chase_Path.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cannock_Chase_Path.jpg/300px-Cannock_Chase_Path.jpg"
   },
   {
     areaName:"wye valley",
@@ -55,7 +55,7 @@ var data=[
     email:"information@wyevalleyaonb.co.uk",
     phone:"01600 710846",
     website:"www.wyevalleyaonb.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/6/6e/View_of_Tintern_Abbey.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Monmouth_from_Livox_Wood_-_geograph.org.uk_-_203771.jpg/220px-Monmouth_from_Livox_Wood_-_geograph.org.uk_-_203771.jpg"
   },
   {
     areaName:"shropshire hills",
@@ -64,7 +64,7 @@ var data=[
     email:"phil.holden@shropshire.gov.uk",
     phone:"01743 254740",
     website:"www.shropshirehillsaonb.co.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/8/88/Shropshire_Long_Mynd.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ClunBridge2c.jpg/200px-ClunBridge2c.jpg"
   },
   {
     areaName:"malvern hills",
@@ -73,7 +73,7 @@ var data=[
     email:"pesrich@worcestershire.gov.uk",
     phone:"01684 560616",
     website:"www.malvernhillsaonb.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/3/3f/Malvern_Hills_-_England.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Malvern_Hills_-_England.jpg/300px-Malvern_Hills_-_England.jpg"
   },
   {
     areaName:"cotswolds",
@@ -82,7 +82,7 @@ var data=[
     email:"martin.lane@cotswoldsaonb.org.uk",
     phone:"01451 862000",
     website:"www.cotswoldsaonb.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/e/e7/Castle_combe_cotswolds.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Castle_combe_cotswolds.jpg/256px-Castle_combe_cotswolds.jpg"
   },
   {
     areaName:"blackdown hills",
@@ -91,9 +91,8 @@ var data=[
     email:"avsvds",
     phone:"asvdvs",
     website:"www.blackdownhillsaonb.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/4/40/Blackdown_Hills_at_Dalwood.JPG"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Blackdown_Hills_at_Dalwood.JPG/256px-Blackdown_Hills_at_Dalwood.JPG"
   },
-  //TODO
   {
     areaName:"cranborne chase and west wiltshire downs",
     description:"the cranborne chase is a chalk plateau in central southern england. it covers an area of 379 square miles and its highest point is win green, in wiltshire, at 910 feet. there are many nelithic and bronze age mounuments, including the henge monumnents at knowlton.",
@@ -101,7 +100,7 @@ var data=[
     email:"lindanunn@cranbornechase.org.uk",
     phone:"01725 517417",
     website:"www.ccwwdaonb.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/1/1b/Dorset_brings_01.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Dorset_ashmore_01.jpg/220px-Dorset_ashmore_01.jpg"
   },
   {
     areaName:"cornwall",
@@ -110,7 +109,7 @@ var data=[
     email:"info@cornwall.gov.uk",
     phone:"01872 322350",
     website:"www.cornwall-aonb.gov.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/f/fa/Cape_Cornwall_%28Judithili%29_edit.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Stives1.jpg/220px-Stives1.jpg"
   },
   {
     areaName:"dorset",
@@ -119,7 +118,7 @@ var data=[
     email:"dorsetaonb@dorsetcc.gov.uk",
     phone:"01305 228239",
     website:"www.dorsetaonb.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/6/6c/Blue_lias_cliffs_at_Lyme_Regis.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Durdle_Door_Overview.jpg/260px-Durdle_Door_Overview.jpg"
   },
   {
     areaName:"east devon",
@@ -128,7 +127,7 @@ var data=[
     email:"chris.woodruff@eastdevonaonb.org.uk",
     phone:"01404 46663",
     website:"",
-    image:"https://upload.wikimedia.org/wikipedia/commons/b/b7/Snow05_009.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Snow05_009.jpg/300px-Snow05_009.jpg"
   },
   {
     areaName:"isles of scilly",
@@ -137,7 +136,7 @@ var data=[
     email:"jpearce@scilly.gov.uk",
     phone:"01720 424317",
     website:"www.visitislesofscilly.com",
-    image:"https://upload.wikimedia.org/wikipedia/commons/e/e7/Tresco_-_aerial_photo6_edit.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Tresco_-_aerial_photo6_edit.jpg/220px-Tresco_-_aerial_photo6_edit.jpg"
   },
   {
     areaName:"mendip hills",
@@ -146,7 +145,7 @@ var data=[
     email:"sjackson@somerset.gov.uk",
     phone:"01761 463357",
     website:"www.mendiphillsaonb.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/d/dc/Crook_Peak_towards_Compton_Hill.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Crook_Peak_towards_Compton_Hill.jpg/243px-Crook_Peak_towards_Compton_Hill.jpg"
   },
   {
     areaName:"north devon coast",
@@ -155,7 +154,7 @@ var data=[
     email:"jenny.carey-wood@devon.gov.uk",
     phone:"01271 388758",
     website:"www.northdevon-aonb.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/9/96/Cliffs_Clovelly_Coast_West.JPG"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Cliffs_Clovelly_Coast_West.JPG/220px-Cliffs_Clovelly_Coast_West.JPG"
   },
   {
     areaName:"north wessex downs",
@@ -164,7 +163,7 @@ var data=[
     email:"henryoliver@northwessexdowns.org.uk",
     phone:"01488 685440",
     website:"www.northwessexdowns.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/4/40/The_South_Western_Slopes_of_Walbury_Hill_-_geograph.org.uk_-_62332.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_South_Western_Slopes_of_Walbury_Hill_-_geograph.org.uk_-_62332.jpg/220px-The_South_Western_Slopes_of_Walbury_Hill_-_geograph.org.uk_-_62332.jpg"
   },
   {
     areaName:"quantock hills",
@@ -173,7 +172,7 @@ var data=[
     email:"quantockhills@somerset.gov.uk",
     phone:"01823 451884",
     website:"www.quantockhills.com",
-    image:"https://upload.wikimedia.org/wikipedia/commons/1/13/UplandQuantocks.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Quantocksbeach.jpg/220px-Quantocksbeach.jpg"
   },
   {
     areaName:"south devon",
@@ -182,7 +181,7 @@ var data=[
     email:"roger.english@southdevonaonb.org.uk",
     phone:"01803 861435",
     website:"www.southdevonaonb.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/4/42/Slapton_Sands_1.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Slapton_Sands_1.jpg/320px-Slapton_Sands_1.jpg"
   },
   {
     areaName:"tamar valley",
@@ -191,7 +190,7 @@ var data=[
     email:"info@tamarvalley.org.uk",
     phone:"01822 835030",
     website:"www.tamarvalley.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/6/67/River_Tamar%2C_near_Bohetherick_-_geograph.org.uk_-_977730.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/River_Tamar%2C_near_Bohetherick_-_geograph.org.uk_-_977730.jpg/270px-River_Tamar%2C_near_Bohetherick_-_geograph.org.uk_-_977730.jpg"
   },
   {
     areaName:"northumberland coast",
@@ -200,7 +199,7 @@ var data=[
     email:"coastaonb@northumberland.gov.uk",
     phone:"01670 533153",
     website:"www.northumberland.gov.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/e/e1/Bamburgh2006.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Bamburgh2006.jpg/256px-Bamburgh2006.jpg"
   },
   {
     areaName:"north pennines",
@@ -209,7 +208,7 @@ var data=[
     email:"chris@northpenninesaonb.org.uk",
     phone:"01388 528801",
     website:"www.northpennines.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/f/f8/Cauldron_Snout_-_July_2006.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Cauldron_Snout_-_July_2006.jpg/256px-Cauldron_Snout_-_July_2006.jpg"
   },
   {
     areaName:"lincolnshire wolds",
@@ -218,7 +217,7 @@ var data=[
     email:"stephen.jack@lincolnshire.gov.uk",
     phone:"01522 555780",
     website:"www.lincswolds.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/9/9f/Lincolnshirewolds.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Lincolnshirewolds.jpg/275px-Lincolnshirewolds.jpg"
   },
   {
     areaName:"dedham vale",
@@ -227,7 +226,7 @@ var data=[
     email:"dedhamvale.project@suffolk.gov.uk",
     phone:"01394 445225",
     website:"www.dedhamvalestourvalley.org",
-    image:"https://upload.wikimedia.org/wikipedia/commons/f/f2/John_Constable_012.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Cmglee_Manningtree_River_Stour.jpg/300px-Cmglee_Manningtree_River_Stour.jpg"
   },
   {
     areaName:"norfolk coast",
@@ -236,7 +235,7 @@ var data=[
     email:"aonb@norfolk.gov.uk",
     phone:"01328 850530",
     website:"www.norfolkcoastaonb.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/3/3c/Cromer_beach_summer_UK.JPG"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cromer_beach_summer_UK.JPG/256px-Cromer_beach_summer_UK.JPG"
   },
   {
     areaName:"suffolk coast and heaths",
@@ -245,7 +244,7 @@ var data=[
     email:"simon.amstutz@suffolk.gov.uk",
     phone:"01394 445225",
     website:"www.suffolkcoastandheaths.org",
-    image:"https://upload.wikimedia.org/wikipedia/commons/b/b7/Dunwich_seafront_today.JPG"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Dunwich_seafront_today.JPG/320px-Dunwich_seafront_today.JPG"
   },
   {
     areaName:"chichester harbour",
@@ -254,9 +253,8 @@ var data=[
     email:"richard.austin@conservancy.co.uk",
     phone:"01243 512301",
     website:"www.conservancy.co.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/1/16/View_Across_Chichester_Harbour_-_geograph.org.uk_-_1717805.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/View_Across_Chichester_Harbour_-_geograph.org.uk_-_1717805.jpg/220px-View_Across_Chichester_Harbour_-_geograph.org.uk_-_1717805.jpg"
   },
-  //TODO Chiltern Hils
   {
     areaName:"chilterns",
     description:"the chiltern hills form a chalk escarpment in the south east of england. the highest point is haddington hill with 878 feet. the area covers 322 square miles and was designated in 1965.",
@@ -264,7 +262,7 @@ var data=[
     email:"office@chilternsaonb.org",
     phone:"01844 355500",
     website:"www.chilternsaonb.org",
-    image:"https://upload.wikimedia.org/wikipedia/commons/d/df/Chilterns_England_Rolling_Countryside.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ivinghoe_Beacon_seen_from_The_Ridgeway.jpg/220px-Ivinghoe_Beacon_seen_from_The_Ridgeway.jpg"
   },
   {
     areaName:"high weald",
@@ -282,7 +280,7 @@ var data=[
     email:"fiona.hanna@iow.gov.uk",
     phone:"01983 823855",
     website:"www.wightaonb.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/7/7d/IsleOfWightFromTheISS.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Carisbrooke_Castle_gate_2.jpg/220px-Carisbrooke_Castle_gate_2.jpg"
   },
   {
     areaName:"kent downs",
@@ -291,7 +289,7 @@ var data=[
     email:"mail@kentdowns.org.uk",
     phone:"01303 815170",
     website:"www.kentdowns.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/8/82/DownsRanscombeFieldToMway0734c.JPG"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/DownsRanscombeFieldToMway0734c.JPG/200px-DownsRanscombeFieldToMway0734c.JPG"
   },
   {
     areaName:"surrey hills",
@@ -300,7 +298,7 @@ var data=[
     email:"rob.fairbanks@surreycc.gov.uk",
     phone:"01372 220653",
     website:"www.surreyhills.org",
-    image:"https://upload.wikimedia.org/wikipedia/commons/0/0e/CalvertRoadDorking.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/CalvertRoadDorking.jpg/300px-CalvertRoadDorking.jpg"
   },
   {
     areaName:"howardian hills",
@@ -309,7 +307,7 @@ var data=[
     email:"info@howardianhills.org.uk",
     phone:"0845 034 9495",
     website:"www.howardianhills.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/0/09/Howardian_Hills.jpg"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Howardian_Hills.jpg/200px-Howardian_Hills.jpg"
   },
   {
     areaName:"nidderdale",
@@ -318,7 +316,7 @@ var data=[
     email:"nidderdaleaonb@harrogate.gov.uk",
     phone:"01423 712950",
     website:"www.nidderdaleaonb.org.uk",
-    image:"https://upload.wikimedia.org/wikipedia/commons/3/3b/Upper_Nidderdale.JPG"
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Upper_Nidderdale.JPG/220px-Upper_Nidderdale.JPG"
   }
 
 ];
