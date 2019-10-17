@@ -1,0 +1,561 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": [
+        "how do I search"
+      ]
+    },
+    {
+      "name": "AMAZON.NoIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.RepeatIntent",
+      "samples": [
+        "repeat that",
+        "say that again",
+        "can you say that again",
+        "please repeat"
+      ]
+    },
+    {
+      "name": "AMAZON.StartOverIntent",
+      "samples": [
+        "startover",
+        "new search",
+        "search again"
+      ]
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.YesIntent",
+      "samples": []
+    },
+    {
+      "name": "SearchByCityIntent",
+      "samples": [
+        "which area is in {region} ",
+        "find me an area in {region} ",
+        "{region}",
+        "find me areas in {region}",
+        "tell me an area of outstanding natural beauty in {region}",
+        "tell me areas of outstanding natural beauty in {region}",
+        "which areas of outstanding natural beauty are in {region}",
+        "which areas are in {region}",
+        "{whoPhrase} me {region}",
+        "tell me something about the region of {region}",
+        "find me an area of outstanding natural beauty in {region}",
+        "find me areas of outstanding natural beauty in {region}"
+      ],
+      "slots": [
+        {
+          "name": "region",
+          "type": "AMAZON.GB_REGION",
+          "samples": []
+        },
+        {
+          "name": "whoPhrase",
+          "type": "WHO_PHRASE",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "SearchByInfoTypeIntent",
+      "samples": [
+        "{whatPhrase} {areaName}  {infoType} handle",
+        "{whatPhrase} {areaName} {infoType} username",
+        "{infoType} {areaName} {whatPhrase}"
+      ],
+      "slots": [
+        {
+          "name": "areaName",
+          "type": "area_Name",
+          "samples": []
+        },
+        {
+          "name": "infoType",
+          "type": "LIST_OF_INFO_TYPES",
+          "samples": []
+        },
+        {
+          "name": "whatPhrase",
+          "type": "WHAT_PHRASE",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "SearchByNameIntent",
+      "samples": [
+        "{areaName}",
+        "{whoPhrase} {areaName} ",
+        "{whatPhrase} {infoType} for {areaName} ",
+        "where is {areaName}",
+        "give me information about {areaName}",
+        "tell me more about {areaName}",
+        "tell me about {areaName}",
+        "i want to learn more about {areaName}",
+        "i want to learn more about the {areaName} area",
+        "{whatPhrase} more about the {areaName} area",
+        "give me information about the {areaName} area"
+      ],
+      "slots": [
+        {
+          "name": "areaName",
+          "type": "area_Name",
+          "samples": []
+        },
+        {
+          "name": "infoType",
+          "type": "LIST_OF_INFO_TYPES",
+          "samples": []
+        },
+        {
+          "name": "whoPhrase",
+          "type": "WHO_PHRASE",
+          "samples": []
+        },
+        {
+          "name": "whatPhrase",
+          "type": "WHAT_PHRASE",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "TellMeMoreIntent",
+      "samples": [
+        "contact info",
+        "tell me more",
+        "more details"
+      ],
+      "slots": []
+    },
+    {
+      "name": "TellMeThisIntent",
+      "samples": [
+        "{whatPhrase} her {infoType} handle",
+        "{whatPhrase} her {infoType} username",
+        "{whatPhrase} {infoType} username",
+        "{whatPhrase} his {infoType} handle",
+        "tell me the {infoType}",
+        "tell me the {infoType} address",
+        "tell me the {infoType} number",
+        "{whatPhrase} the {infoType}",
+        "{whatPhrase} {infoType} "
+      ],
+      "slots": [
+        {
+          "name": "infoType",
+          "type": "LIST_OF_INFO_TYPES",
+          "samples": []
+        },
+        {
+          "name": "whatPhrase",
+          "type": "WHAT_PHRASE",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "AMAZON.GB_REGION",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "south west",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "west midlands",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "north west",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "north east",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "east midlands",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "east of england",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "south east",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "yorkshire and humber",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "area_Name",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "chilterns",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "high weald",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "kent downs",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "nidderdale",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "howardian hills",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "surrey hills",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "south hampshire coast",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "isle of wight",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "chichester harbour",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "suffolk coast and heaths",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "norfolk coast",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "dedham vale",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "lincolnshire wolds",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "north pennines",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "northumberland coast",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "tamar valley",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "south devon",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "quantock hills",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "north wessex downs",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "north devon coast",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "mendip hills",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "isles of scilly",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "east devon",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "dorset",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "cornwall",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "cranborne chase and west wiltshire downs",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "blackdown hills",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "cotswolds",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "malvern hills",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "shropshire hills",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "wye valley",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "cannock chase",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "solway coast",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "forest of bowland",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "arnside and silverdale",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "LIST_OF_INFO_TYPES",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "phone",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "email",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "description",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "WHAT_PHRASE",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "what is",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "what's",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "give me",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "tell me",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "WHO_PHRASE",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "find",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "who is",
+            "synonyms": []
+          }
+        }
+      ]
+    }
+  ]
+}

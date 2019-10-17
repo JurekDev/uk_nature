@@ -61,7 +61,7 @@ isle of wight:
 isles of scilly:
   phone: (01720) 424317
   email: jpearce@scilly.gov.uk
-  web: empty
+  web: www.visitislesofscilly.com
 kent downs:
   phone: (01303) 815170
   email: mail@kentdowns.org.uk

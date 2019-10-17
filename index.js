@@ -8,12 +8,19 @@ var APP_ID = undefined;
 //TODO: Replace these text strings to edit the welcome and help messages
 //======================================================================================================
 
-var skillName = "Alexa Team Lookup";
+
+//Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.
+//Make sure to enclose your value in quotes, like this:  var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
+var APP_ID = undefined;
+
+
+
+var skillName = "Areas Of Natural Beauty England";
 
 //This is the welcome message for when a user starts the skill without a specific intent.
 // var WELCOME_MESSAGE = "Welcome to  " + skillName + "! I can help you find Alexa Evangelists and Solutions Architects. " + getGenericHelpMessage(data);
 
-var WELCOME_MESSAGE = "Find Areas of Outstanding Natural Beauty in England. For example, " + getGenericHelpMessage(data)
+var WELCOME_MESSAGE = "Welcome to Areas of outstanding Natural Beauty in England. Tell me the name of the area you want to learn more about. Or tell me the name of the region you want to search an A.O.N.B. ."
 
 //This is the message a user will hear when they ask Alexa for help in your skill.
 var HELP_MESSAGE = "I can help you find Areas of Outstanding Natural Beauty in England. "
@@ -37,8 +44,6 @@ var EXIT_SKILL_MESSAGE = "Ok. Bye.";
 // =====================================================================================================
 // ------------------------------ Section 2. Skill Code - Intent Handlers  -----------------------------
 // =====================================================================================================
-// CAUTION: Editing anything below this line might break your skill.
-//======================================================================================================
 
 var states = {
     SEARCHMODE: "_SEARCHMODE",
@@ -284,7 +289,7 @@ var descriptionHandlers = Alexa.CreateStateHandler(states.DESCRIPTION, {
             } else {
               //not a valid slot. no card needs to be set up. respond with simply a voice response.
               speechOutput = generateSearchHelpMessage();
-              repromptSpeech = "You can ask me - what's the phone number, or give me the description";
+              repromptSpeech = "You can ask me for the email address or the phone number.";
               this.attributes.lastSearch.lastSpeech = speechOutput;
               this.handler.state = states.SEARCHMODE;
               this.emit(":ask", speechOutput, repromptSpeech);
@@ -397,7 +402,7 @@ function searchByNameIntentHandler(){
         if (searchResults.count > 1) { //multiple results found
             console.log("Search complete. Multiple results were found");
             var listOfPeopleFound = loopThroughArrayOfObjects(lastSearch.results);
-            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ". Which area of outstanding natural beauty would you like to learn more about?";
+            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ".   Tell me the area you would like to learn more about?";
             this.handler.state = states.MULTIPLE_RESULTS; // change state to MULTIPLE_RESULTS
             this.attributes.lastSearch.lastSpeech = output;
             this.emit(":ask", output);
@@ -454,7 +459,7 @@ function searchByCityIntentHandler(){
         if (searchResults.count > 1) { //multiple results found
             console.log("Search completed by city. Multiple results were found");
             var listOfPeopleFound = loopThroughArrayOfObjects(lastSearch.results);
-            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ". Which area of outstanding natural beauty would you like to learn more about?";
+            output = generateSearchResultsMessage(searchQuery,searchResults.results) + listOfPeopleFound + ".   Tell me the area you would like to learn more about?";
             this.handler.state = states.MULTIPLE_RESULTS; // change state to MULTIPLE_RESULTS
             this.attributes.lastSearch.lastSpeech = output;
             this.emit(":ask", output);
@@ -566,7 +571,7 @@ function generateNextPromptMessage(person,mode){
   if (mode == "current"){
     // if the mode is current, we should give more informaiton about the current contact
     var randInfoType = infoTypes[getRandom(0,infoTypes.length-1)];
-    prompt = ". If you want the " +  " " + randInfoType + "" + "ask - tell me the " + randInfoType;
+    prompt = ". - if you want contact info, just ask for the " + randInfoType;
   }
   //if the mode is general, we should provide general help information
   else if (mode == "general"){
@@ -598,7 +603,7 @@ function generateSearchResultsMessage(searchQuery,results){
           console.log(sentence);
           break;
       case (results.length > 1):
-          sentence = "There are " + results.length + " matching areas.";
+          sentence = "I found " + results.length + " A.O.N.B.'s.";
           break;
       }
     }
@@ -609,7 +614,7 @@ function generateSearchResultsMessage(searchQuery,results){
 }
 
 function getGenericHelpMessage(data){
-  var sentences = ["ask - tell me something about the region of " + getRandomName(data),",or - find an area of outstanding natural beauty in " + getRandomCity(data)];
+  var sentences = [" tell me the name of a region. for example - " + getRandomCity(data)," tell me the name of an  A.O.N.B. - for example - " +  getRandomName(data)];
   return "You can " + sentences[getRandom(0,sentences.length-1)]
 }
 
@@ -626,15 +631,8 @@ function generateSpecificInfoMessage(slots,person){
     var infoTypeValue;
     var sentence;
 
-//TODO delete github stuff
-    if (slots.infoType.value == "git hub"){
-      infoTypeValue = "description";
-      console.log("resetting gith hub to description");
-    }
-    else{
       console.log("no reset required for description");
       infoTypeValue = slots.infoType.value;
-    }
 
     sentence = person.areaName + "'s " + infoTypeValue.toLowerCase() + " is : " + person[infoTypeValue.toLowerCase()] + " . Would you like to find another area of outstanding natural beauty? " + getGenericHelpMessage(data);
     return optimizeForSpeech(sentence);
@@ -650,8 +648,8 @@ exports.handler = function(event, context, callback) {
 // =====================================================================================================
 // ------------------------------------ Section 4. Helper Functions  -----------------------------------
 // =====================================================================================================
-// For more helper functions, visit the Alexa cookbook at https://github.com/alexa/alexa-cookbook
-//======================================================================================================
+
+
 
 function getRandom(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -676,7 +674,7 @@ function slowSpell(str) {
 
 function generateCard(person) {
     var cardTitle = "Contact Info for " + titleCase(person.areaName);
-    var cardBody = "phone: " + person.phone + " \n" + "email: " + person.email;
+    var cardBody = "phone: " + person.phone + " \n" + "email: " + person.email + " \n" + "website: " + person.website;
     var imageObj = {
     smallImageUrl: person.image,
     largeImageUrl: person.image,
